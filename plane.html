@@ -9,6 +9,7 @@
             padding: 20px;
             margin: 0;
             overflow: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         .konvajs-content {
@@ -21,53 +22,68 @@
 
 <body>
     <script src='./simulation.js'></script>
-
-    <h1>This is the great condensation simulation</h1>
-    <p>Written by Nico Enghardt</p>
-    <a href="./bubbles.html">3D - Darstellung</a>
-    <div id="container"></div>
     <script>
-        let size = 800;
+        var runSimulation = function (e) {
 
-        var stage = new Konva.Stage({
-            container: 'container',   // id of container <div>
-            width: size,
-            height: size,
-        });
+            let size = 600;
+            var stage = new Konva.Stage({
+                container: 'container',   // id of container <div>
+                width: size,
+                height: size,
+            });
 
-        var bubbles = new Konva.Layer();
-        var text = new Konva.Layer();
-
-        circles.forEach((circle) => {
-            if (circle) {
-                text.add(new Konva.Text({
-                    x: size * circle.x - 20,
-                    y: size * circle.y - 30,
-                    text: circle.id,
-                    fontSize: 5,
-                    fontFamily: 'Calibri',
-                    fill: 'white',
-                }));
-                bubbles.add(new Konva.Circle({
-                    x: size * circle.x,
-                    y: size * circle.y,
-                    radius: size * circle.r,
-                    fill: 'blue',
-                    stroke: 'black',
-                    strokeWidth: 1,
-                    type: "Bubble"
-                }))
+            var bubbles = new Konva.Layer();
+            var text = new Konva.Layer();
+            if (e) {
+                e.preventDefault();
             }
-        });
+            var volumen = document.getElementById("volumen").value / 1000;
+            var menge = document.getElementById("menge").value;
+            var winkel = document.getElementById("winkel").value;
+            circles = simulate(volumen, menge, winkel);
+
+            circles.forEach((circle) => {
+                if (circle) {
+                    bubbles.add(new Konva.Circle({
+                        x: size * circle.x,
+                        y: size * circle.y,
+                        radius: size * circle.r,
+                        fill: 'blue',
+                        stroke: 'black',
+                        strokeWidth: 0,
+                        type: "Bubble"
+                    }))
+                }
+            });
 
 
-        stage.add(bubbles);
-        //stage.add(text);
-
-        stage.draw();
-        console.log();
+            stage.add(bubbles);
+            stage.draw();
+        }
 
     </script>
+    <h1>This is a water condensation simulation</h1>
+    <h2>Written by Nico Enghardt</h2>
+    <a href="./bubbles.html" placeholder="3D - Darstellung"></a>
+
+    <form onsubmit="runSimulation(event)">
+        <label>Zu kondensierende Wassermenge in ml </label>
+        <input type="number" id="volumen" min="0" max="10" step="0.0000000000000001" value="1">
+        (Die Platte ist quadratisch mit einer Grundfläche von 1m².)
+        <p>
+
+            <label>Anzahl der Bubbles </label>
+            <input type="number" id="menge" min="1" max="2000000" value="100">
+        </p>
+        <p>
+            <label>Grenzflächenwinkel in Grad </label>
+            <input type="number" id="winkel" min="0.1" max="179.9" step="0.1" value="45">
+        </p>
+        <p>
+            <input type="submit" value="Simulation starten"></button>
+        </p>
+    </form>
+    <div id="container"></div>
 
 </body>
 
