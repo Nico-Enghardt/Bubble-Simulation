@@ -45,8 +45,19 @@ const sumBubble = function (bubble1, bubble2, alpha) {
     return { x: x, r: r, y: y, V: bubble1.V + bubble2.V, original: false }
 }
 
+const getStandardAbweichung = function(array){
+    const mittelwert = array.reduce((p,c)=> p+c,0)/array.length
+}
+
+const getCircles = function (c) {
+    return [...c];
+}
+
+var timesteps = [];
+
 var simulate = function (volume, number, phi) {
 
+    timesteps.push({ sumVolume: volume });
     var calculating = true;
     var status = 0;
 
@@ -55,67 +66,66 @@ var simulate = function (volume, number, phi) {
     winkel = phi;
     V_max = volume;
 
-    circles = [];
-    close_circles = [];
-    newBubbles = [];
-    sumBubbles = [];
+
+    var circles = [];
+    var newBubbles = [];
     let V_current = 0;
 
     do {
         V_current += V_initial;
 
         newBubbles.push({
-            x: a - Math.random() * a,
-            y: a - Math.random() * a,
+            x: Math.random() * a,
+            y: Math.random() * a,
             r: getR(V_initial, phi),
             V: V_initial,
             original: true
         })
         for (var i = 0; i < newBubbles.length; i++) {
             if (newBubbles[i]) {
-                var newBubble = newBubbles[i];
-                newBubble.id = circles.length;
+                newBubbles[i].id = circles.length;
                 for (var c = 0; c < circles.length; c++) {
                     if (circles[c]) {
-                        if (doMeet(circles[c], newBubble)) {
-                            //console.log(circles[c].id, "and the new Bubble were close enough to melt into a new bubble");
-                            //console.log(circles[c],newBubble);
-                            newBubbles.push(sumBubble(circles[c], newBubble, phi));
-                            newBubbles[i] = null;
+                        if (doMeet(circles[c], newBubbles[i])) {
+                            //console.log(circles[c].id, "and the new Bubble", i, "were close enough to melt into a new bubble");
+                            //console.log(circles[c], newBubbles[i]);
+                            newBubbles.push(sumBubble(circles[c], newBubbles[i], phi));
                             circles[c] = null;
+                            newBubbles[i] = null;
+                            break;
                         }
                     }
                 }
                 if (newBubbles[i]) {
-                    circles.push(newBubble);
+                    circles.push(newBubbles[i]);
                     newBubbles[i] = null;
                 }
             }
         }
         status = V_current / volume;
-        //console.log("Anteil an kondendsiertem Wasser: ", V_current / volume);
+
+        //console.log("Anteil an kondendsiertem Wasser: ", status);
+        //timesteps.push({ current_Volume: V_current, circles: getCircles(circles) });
+
+        newBubbles = [];
 
     } while (V_current < volume)
 
 
     //console.log("Data of all the cirlces: ", circles);
 
-    var total = 0;
+    var bubbleCount = 0;
     var wassermenge = 0;
     var Heizfläche = 0;
     circles.forEach((circle) => {
         if (circle) {
-            total++;
+            bubbleCount++;
             if (circle && circle.V) {
                 wassermenge += circle.V;
             }
-            Heizfläche += Math.pow(circle.r,2)*Math.PI;
-    };
+            Heizfläche += Math.pow(circle.r, 2) * Math.PI;
+        };
     })
-
-    console.log(total + " of total " + menge + " Bubbles are still visible on the screen.");
-    console.log(" Messunsicherheit in Prozent: ", Math.abs(wassermenge - V_max) / 100 / V_max);
-    console.log("k = "+ Heizfläche/Math.pow(a,2))
 
     for (let i = 0; i < circles.length; i++) {
         if (circles[i] != null) {
@@ -123,9 +133,20 @@ var simulate = function (volume, number, phi) {
         }
     };
 
-    return circles
+    var information = {};
+    var k = Heizfläche / Math.pow(a, 2);
+    information.menge = menge;
+    information.bubblePercentage = bubbleCount/menge*100;
+    information.uncertainty = Math.abs(wassermenge - V_max) * 100 / V_max;
+
+    information.k = k;
+    information.circles = circles;
+
+    console.log(bubbleCount + " of total " + menge + " Bubbles are still visible on the screen.");
+    console.log(" Messunsicherheit in Prozent: ", Math.abs(wassermenge - V_max) * 100 / V_max);
+    console.log("k = " + k);
+
+    return information;
 }
 
-
-
-//module.exports = circles;
+module.exports = simulate;

@@ -33,14 +33,13 @@
             });
 
             var bubbles = new Konva.Layer();
-            var text = new Konva.Layer();
             if (e) {
                 e.preventDefault();
             }
             var volumen = document.getElementById("volumen").value / 1000;
             var menge = document.getElementById("menge").value;
             var winkel = document.getElementById("winkel").value;
-            circles = simulate(volumen, menge, winkel);
+            circles = simulate(volumen, menge, winkel).circles;
 
             circles.forEach((circle) => {
                 if (circle) {

@@ -1,1 +1,6 @@
 .vscode
+results
+node_modules
+Curve Fitting
+package-lock.json
+package.json
