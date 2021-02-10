@@ -23,90 +23,100 @@
     <h1>This is the great condensation simulation</h1>
     <p>Written by Nico Enghardt</p>
     <a href="./plane.html">2D - Darstellung</a>
-    <p>Hier wird später noch eine dreidimensionale Darstellung eingefügt, damit man ein besseres Gefühl für das Volumen der Bubbles bekommen kann.</p>
+    <form onsubmit="runSimulation(event)">
+        <label>Zu kondensierende Wassermenge in Millilitern </label>
+        <input type="number" id="volumen" min="0" max="10" step="0.0000000000000001" value="1">
+        (Die Platte ist quadratisch mit einer Grundfläche von 1dm².)
+        <p>
+
+            <label>Anzahl der Bubbles </label>
+            <input type="number" id="menge" min="1" max="2000000" value="100">
+        </p>
+        <p>
+            <label>Grenzflächenwinkel in Grad </label>
+            <input type="number" id="winkel" min="0.1" max="179.9" step="0.1" value="45">
+        </p>
+        <p>
+            <input type="submit" value="Simulation starten"></button>
+        </p>
+    </form>
     <div id="container"></div>
+    <script src='./simulation.js'></script>
     <script>
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        camera.position.set(0, 0, 20);
-        camera.lookAt(0, 0, 0);
 
-        const renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
+        var runSimulation = function (e) {
+            if (e) { e.preventDefault(); }
 
-        const geometry = new THREE.BoxGeometry(3, 1, 1);
-        const material = new THREE.MeshBasicMaterial({
-            color: 0x005500,
-        colorWrite: true
-        });
-        const linematerial = new THREE.LineBasicMaterial({ color: 0x888888 });
-        const cube = new THREE.Mesh(geometry, material);
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(75, 10 / 7, 1, 100);
+            camera.position.set(0, 6, 10);
+            camera.lookAt(0, 0, 0);
+
+            const light = new THREE.AmbientLight(0x404040);
+            scene.add(light);
 
 
-        const points = [];
-        points.push(new THREE.Vector3(- 10, 0, 0));
-        points.push(new THREE.Vector3(0, 10, 0));
-        points.push(new THREE.Vector3(10, 0, 0));
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 0.3);
+            directionalLight.position = [0,1,0];
+            scene.add(directionalLight);
 
-        const linegeometry = new THREE.BufferGeometry().setFromPoints(points);
+            const renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(1000, 700);
+            document.body.appendChild(renderer.domElement);
 
-        const line = new THREE.Line(linegeometry, linematerial);
+            var volumen = document.getElementById("volumen").value / 1000000;
+            var menge = document.getElementById("menge").value;
+            var winkel = document.getElementById("winkel").value;
+            circles = simulate(volumen, menge, winkel).circles;
 
-        scene.add(cube);
-        scene.add(line);
+            circles.forEach((element) => {
+                if (element) {
+                    var R = element.r / Math.sin(winkel / 180 * Math.PI);
+                    var dH = -R * Math.cos(winkel / 180 * Math.PI);
+                    var geometry = new THREE.SphereGeometry(R * 10, 30, 30);
+                    geometry.translate(element.x * 10 - 5, dH * 10, element.y * 10 - 5);
+                    var material = new THREE.MeshBasicMaterial({ color: 0x00ccff });
+                    const sphere = new THREE.Mesh(geometry, material);
+                    scene.add(sphere);
+                }
+            })
 
-        function animate() {
-            requestAnimationFrame(animate);
-            renderer.render(scene, camera);
-            cube.rotation.x += 0.01;
-            cube.rotation.y += 0.01;
-            line.rotation.y += 0.02
-        }
-        animate();
+            console.log(Math.sin(winkel));
+            // Initializing the plane
+            geometry = new THREE.BoxGeometry(40, 2, 40);
+            geometry.translate(0, -1.01, 0)
+            material = new THREE.MeshBasicMaterial({ color: 0x990000, colorWrite: true });
+            const plane = new THREE.Mesh(geometry, material);
+            scene.add(plane);
 
-        /*let size = 1000;
+            geometry = new THREE.BoxGeometry(10, 2, 10);
+            geometry.translate(0, -1, 0)
+            material = new THREE.MeshStandardMaterial({ color: 0xffffff, flatShading: true, metalness: 0.5, roughness:0.3});
+            const surface = new THREE.Mesh(geometry, material);
+            scene.add(surface);
 
-        var stage = new Konva.Stage({
-            container: 'container',   // id of container <div>
-            width: size,
-            height: size,
-        });
 
-        var bubbles = new Konva.Layer();
-        var text = new Konva.Layer();
+            var t = 0;
 
-        circles.forEach((circle) => {
-            if (circle) {
-                text.add(new Konva.Text({
-                    x: size * circle.x - 20,
-                    y: size * circle.y - 30,
-                    text: circle.id,
-                    fontSize: 5,
-                    fontFamily: 'Calibri',
-                    fill: 'white',
-                }));
-                bubbles.add(new Konva.Circle({
-                    x: size * circle.x,
-                    y: size * circle.y,
-                    radius: size * circle.r,
-                    fill: 'blue',
-                    stroke: 'black',
-                    strokeWidth: 1,
-                    type: "Bubble"
-                }))
+            function animate() {
+                requestAnimationFrame(animate);
+                renderer.render(scene, camera);
+                t += 0.01;
+                camera.position.set(0 + Math.sin(t) * 1.4, 4 + Math.sin(t / 3) * 2, 10);
+                camera.lookAt(0, 0, 0);
             }
-        });
-
-
-        stage.add(bubbles);
-        //stage.add(text);
-
-        stage.draw();
-        console.log();
-*/
+            animate();
+        }
     </script>
 
 </body>
 
 </html>
+
+<!--- Quellen
+
+https://threejs.org/docs/index.html
+https://riptutorial.com/three-js/example/26557/custom-camera-control---mouse-based-sliding
+https://threejsfundamentals.org/
+
+-->

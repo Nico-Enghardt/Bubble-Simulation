@@ -37,19 +37,25 @@ function minMax(array) {
 }
 
 var ergebnisse = {};
-var volumes = [];
-let variabel = 'Volume';
+var angles = [];
+let variabel = 'Number';
 
-for (var V = 0.02; V <= 1.3; V += 0.02) {
-    volumes.push(V / 1000000);
+
+for (var a = 1; a < 10; a +=1) {
+    angles.push(a);
 }
 
-console.log(volumes);
+for (var a = 10; a <= 90; a +=2) {
+    angles.push(a);
+}
+
+console.log(angles);
 
 ergebnisse.parameter = {
-    volume: volumes,
-    number: 500,
-    angle: 30,
+    volume: 0.0000005,
+    number: 20000,
+    angle: angles,
+    i: 10,
 }
 
 var heute = new Date()
@@ -59,16 +65,16 @@ ergebnisse.run_information = {
 }
 ergebnisse.runs = [];
 
-volumes.forEach(volume => {
-    var run = { volume: volume };
+angles .forEach(a => {
+    var run = { angle: a };
     run.information = [];
-    for (var i = 0; i < 5; i++) {
-        console.log("Simulation", i, "with Volume", volume);
-        var information = simulate(volume, ergebnisse.parameter.number, ergebnisse.parameter.angle);
+    for (var i = 0; i < ergebnisse.parameter.i; i++) {
+        console.log("Simulation", i, "with angle =", a,"and n=",ergebnisse.parameter.number);
+        var information = simulate(ergebnisse.parameter.volume, ergebnisse.parameter.number,a );
         delete information.circles;
         run.information.push(information);
     }
-    run.werte = run.information.map((bundle) => { return bundle.k });
+    run.werte = run.information.map((bundle) => { return bundle.meanD });
     run.standardabweichung = stat.staw(run.werte);
     run.average = stat.average(run.werte);
 
@@ -80,7 +86,7 @@ ergebnisse.run_information.Dauer = timeDiffCalc(new Date(), heute);
 
 ergebnisse.ergebnisse = ergebnisse.runs.map((element) => {
     return {
-        number: element.volume,
+        angle: element.angle,
         average: element.average,
         standardabweichung: element.standardabweichung,
     }
@@ -89,10 +95,10 @@ ergebnisse.ergebnisse = ergebnisse.runs.map((element) => {
 var csv = "";
 
 ergebnisse.ergebnisse.forEach((row) => {
-    csv += row.number + ";" + row.average + ";" + row.standardabweichung + "\n";
+    csv += row.angle + ";" + row.average + ";" + row.standardabweichung + "\n";
 })
 
-var i = 'Grenzflächenwinkel: ' + ergebnisse.parameter.angle + ' Bubble_Number: ' + ergebnisse.parameter.number + ' V_gesamt: ' + minMax(ergebnisse.parameter.volume);
+var i = 'Grenzflächenwinkel: ' + minMax(ergebnisse.parameter.angle) + ' Bubble_Number: ' + ergebnisse.parameter.number + ' V_gesamt: ' + ergebnisse.parameter.volume + "meanD-measured";
 var jsonFile = './results/' + i + '.json';
 var csvFile = './results/' + i + '.csv';
 

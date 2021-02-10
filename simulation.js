@@ -1,4 +1,4 @@
-var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
+ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
     
     const unify = function (bubble) {
         return {
@@ -6,7 +6,8 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
             y: bubble.y / a,
             r: bubble.r / a,
             id: bubble.id,
-            V_original: bubble.V
+            V_original: bubble.V,
+            d: bubble.d
         }
     }
 
@@ -95,22 +96,29 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
         if (circles[i] != null) {
             bubbleCount++;
             wassermenge += circles[i].V;
-            Heizfläche += Math.pow(circles[i].r, 2) * Math.PI;
+            var A = Math.pow(circles[i].r, 2) * Math.PI
+            Heizfläche += A;
+            circles[i].d = circles[i].V/A;
             circles[i] = unify(circles[i]);
         }
     };
 
     var information = {};
 
+
+
     information.Bubble_number = Bubble_number;
     information.bubblePercentage = bubbleCount / Bubble_number * 100;
     information.uncertainty = Math.abs(wassermenge - V_gesamt) * 100 / V_gesamt;
     information.k = Heizfläche / Math.pow(a, 2);;
     information.circles = circles;
+    information.meanD = circles.filter((circle)=>{return circle!=null}).map(circle => {return circle.d}).reduce((sum,d) => {return sum + d})/Bubble_number;
+    
 
     console.log(bubbleCount + " of total " + Bubble_number + " Bubbles are still visible on the screen.");
     console.log(" Messunsicherheit in Prozent: ", information.uncertainty);
     console.log("k = " + information.k);
+    console.log("meanD is "+ information.meanD*1000 + " mm")
 
     return information;
 }
