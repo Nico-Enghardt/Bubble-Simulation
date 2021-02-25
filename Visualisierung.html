@@ -1,0 +1,390 @@
+<html>
+
+<head>
+    <title>Condensation simulation</title>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            padding: 20px;
+            padding-bottom: 0px;
+            margin: 0;
+            overflow: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #hl {
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        #hr {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .bigBox {
+            border-radius: 3px;
+            color: white;
+            padding: 20px;
+            font-size: medium;
+            margin: 10px;
+        }
+
+        #bl {
+            grid-column: 1;
+            grid-row: 2;
+
+            background: green;
+
+        }
+
+        #br {
+            grid-column: 2;
+            grid-row: 2;
+
+            background: rgb(156, 115, 0);
+        }
+
+        .reference {
+            display: inline;
+        }
+
+        .grid {
+            display: grid;
+        }
+
+        output {
+            font-weight: bolder;
+        }
+    </style>
+    <style>
+        #Bsimulate {
+            float: right;
+            display: inline;
+        }
+
+        #container {
+            display: block;
+            width: 500px;
+            height: 500px;
+        }
+
+        .konvajs-content {
+            border: 1px solid grey;
+            background-color: lightgrey;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kondensations-Simulierung</h1>
+    <div class="grid">
+        <div id="hl">
+            <h2>Simulationsparameter</h2>
+        </div>
+        <div class="bigBox" id="bl">
+            <form onsubmit="runSimulation(event)">
+                <p>Fläche: A = 1 mm²</p>
+                <p>Gesamtvolumen: V = <input type="number" id="volumen" min="0" max="10" step="0.0000000000000001"
+                        value="1"></p>
+                <p>Grenzflächenwinkel: φ = <input type="number" id="winkel" min="0.1" max="179.9" step="0.1" value="45">
+                </p>
+                <p>Kleinsttropfenzahl: n = <input type="number" id="menge" min="1" max="2000000" value="100"></p>
+                <button type="submit" id="Bsimulate">Simuliere!</button>
+            </form>
+        </div>
+        <div id="hr">
+            <h2>Ergebnisse</h2>
+        </div>
+        <div class="bigBox" id="br">
+            <p>Anzahl an Tropfen:
+                <output class="reference" id="n_measured">
+            </p>
+            <p>Benetzungsgrad: k =
+                <output class="reference" id="k"> %
+            </p>
+            <p>Durchschnittliches Höhenäquivalent d =
+                <output class="reference" id="meanD"> mm
+            </p>
+            <p>Simulationsungenauigkeit - Volumenabweichung:
+                <output class="reference" id="uncertainty" step="0.001"> % von V
+            </p>
+        </div>
+    </div>
+
+    <button id="back" onclick="changeRun(-1)" disabled="true">Zurück</button>
+    <button id="further" onclick="changeRun(+1)" disabled="true">Weiter</button>
+    <button onclick="activateMode('2D')">2-Dimensional</button>
+    <button onclick="activateMode('3D')">3-Dimensional</button>
+    <button onclick="activateMode('dist')">Größenverteilung anzeigen </button>
+
+    <div id="Visualisierung" style="padding: 10px">
+        <center>
+            <div id="container"></div>
+
+            <canvas id="threeD"></canvas>
+            <canvas id="Distribution-Chart"></canvas>
+        </center>
+    </div>
+
+    <script src='./simulation.js'></script>
+    <script src="./three.js"></script>
+    <script src="https://unpkg.com/konva@7.1.6/konva.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+        console.log("Die obere Fehlermeldung 'module is not defined' ist bekannt und kann ignoriert werden. Sie hängt mit der anderweitigen Verwertung der Simulationsergebnisse mit Node.js zusammen.")
+
+        const allResults = []
+        var currentRun = 0;
+        var portrayMode = "2D";
+
+        var runSimulation = function (e) {
+            if (e) { e.preventDefault() }
+            var volumen = document.getElementById("volumen").value / 1000000;
+            var menge = document.getElementById("menge").value;
+            var winkel = document.getElementById("winkel").value;
+            results = simulate(volumen, menge, winkel);
+            results.volumen = volumen;
+            results.menge = menge;
+            results.winkel = winkel;
+            allResults.push(results);
+            currentRun = allResults.length;
+            portray(currentRun, portrayMode);
+            assessBackFurtherButtons();
+        }
+
+        var portray = function (runId, showin3D) {
+
+            var results = allResults[runId - 1];
+
+            document.getElementById("k").value = results.k * 100 + " %";
+            document.getElementById("meanD").value = results.meanD * Math.pow(10, 3) + " mm";
+            document.getElementById("n_measured").value = results.BubbleCount;
+            document.getElementById("uncertainty").value = results.uncertainty * 100 + " %";
+            document.getElementById("volumen").value = results.volumen * 1000000;
+            document.getElementById("winkel").value = results.winkel;
+            document.getElementById("menge").value = results.menge;
+
+            // Deactivate every window
+            document.getElementById("Distribution-Chart").style.display = "none";
+            document.getElementById("container").style.display = "none";
+            document.getElementById("threeD").style.display = "none";
+
+
+
+            switch (portrayMode) {
+                case "3D":
+                    document.getElementById("threeD").style.display = "block";
+                    const scene = new THREE.Scene();
+                    const camera = new THREE.PerspectiveCamera(75, 10 / 7, 1, 100);
+                    camera.position.set(0, 6, 10);
+                    camera.lookAt(0, 0, 0);
+
+                    const light = new THREE.AmbientLight(0x404040);
+                    scene.add(light);
+
+                    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.3);
+                    directionalLight.position = [0, 1, 0];
+                    scene.add(directionalLight);
+
+                    var canvas = document.getElementById("threeD");
+                    const renderer = new THREE.WebGLRenderer({ canvas, antialising: true });
+                    renderer.setSize(700, 450);
+
+                    var winkel = allResults[currentRun - 1].winkel;
+
+                    results.circles.forEach((element) => {
+                        if (element) {
+                            var R = element.r / Math.sin(winkel / 180 * Math.PI);
+                            var dH = -R * Math.cos(winkel / 180 * Math.PI);
+                            var geometry = new THREE.SphereGeometry(R * 10, 30, 30);
+                            geometry.translate(element.x * 10 - 5, dH * 10, element.y * 10 - 5);
+                            var material = new THREE.MeshBasicMaterial({ color: 0x00ccff });
+                            const sphere = new THREE.Mesh(geometry, material);
+                            scene.add(sphere);
+                        }
+                    })
+
+                    // Initializing the plane
+                    geometry = new THREE.BoxGeometry(40, 2, 40);
+                    geometry.translate(0, -1.01, 0)
+                    material = new THREE.MeshBasicMaterial({ color: 0x990000, colorWrite: true });
+                    const plane = new THREE.Mesh(geometry, material);
+                    scene.add(plane);
+
+                    geometry = new THREE.BoxGeometry(10, 2, 10);
+                    geometry.translate(0, -1, 0)
+                    material = new THREE.MeshStandardMaterial({ color: 0xffffff, flatShading: true, metalness: 0.5, roughness: 0.3 });
+                    const surface = new THREE.Mesh(geometry, material);
+                    scene.add(surface);
+
+
+                    var t = 0;
+
+                    function animate() {
+                        requestAnimationFrame(animate);
+                        renderer.render(scene, camera);
+                        t += 0.01;
+                        camera.position.set(0 + Math.sin(t) * 1.4, 4 + Math.sin(t / 3) * 2, 10);
+                        camera.lookAt(0, 0, 0);
+                    }
+                    animate();
+                    break;
+                case "2D":
+                    document.getElementById("container").style.display = "block";
+                    let size = 480;
+
+                    visual = document.getElementById("Visualisierung");
+                    var stage = new Konva.Stage({
+                        container: 'container',   // id of container <div>
+                        width: size,
+                        height: size,
+                    });
+                    var bubbles = new Konva.Layer();
+                    results.circles.forEach((circle) => {
+                        if (circle) {
+                            bubbles.add(new Konva.Circle({
+                                x: size * circle.x,
+                                y: size * circle.y,
+                                radius: size * circle.r,
+                                fill: 'blue',
+                                stroke: 'black',
+                                strokeWidth: 0,
+                                type: "Bubble"
+                            }))
+                        }
+                    });
+
+
+                    stage.add(bubbles);
+                    stage.draw();
+                    break;
+                case "dist":
+                    var canvas = document.getElementById("Distribution-Chart");
+                    canvas.style.display = "block";
+                    const context = canvas.getContext('2d');
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+
+                    var datasets = []
+                    var labels = [];
+
+                    var V_kleinst = results.volumen / results.menge;
+                    var V_max = Math.max(...results.circles.map(circle => { return circle.V_original }))
+
+
+
+                    const reducedWinkel = function (alpha) {
+                        alpha *= Math.PI / 180;
+                        let cos_w = Math.cos(alpha);
+                        let sin_w = Math.sin(alpha);
+                        return (2 - 3 * cos_w + Math.pow(cos_w, 3)) / (3 * Math.pow(sin_w, 3));
+                    }
+
+                    console.log(reducedWinkel)
+
+                    const getR = function (V) {
+                        return Math.pow(V / Math.PI / reducedWinkel(results.winkel), 1 / 3)
+                    }
+
+                    // größten Tropfen finden -> Vielfaches ermitteln und einen Array dieser Länge erstellen
+
+                    var aggregation = [];
+                    for (var i = 1; i <= V_max / V_kleinst + 1; i++) {
+                        aggregation.push({ index: i, count: 0 });
+                    }
+
+                    // für jeden einzelnen Tropfen Größe berechnen und ihn zuordnen
+                    results.circles.forEach(circle => {
+                        console.log(Math.round(circle.V_original / V_kleinst - 1));
+                        console.log(circle)
+                        aggregation[Math.round(circle.V_original / V_kleinst - 1)].count++;
+                    })
+
+                    var last = aggregation.pop();
+                    if(last.count>0){
+                        aggregation.push(last);
+                    }
+
+                    var ctx = document.getElementById('Distribution-Chart').getContext('2d');
+                    if (window.chart != undefined) {
+                        window.chart.destroy();
+                    }
+                    window.chart = new Chart(ctx, {
+                        type: 'bar',
+                        responsive: false,
+                        aspectRatio: 2,
+                        data: {
+                            labels: aggregation.map(agg => {
+                                var volume = agg.index * V_kleinst;
+                                var heating_surface = getR(volume);
+                                return volume / heating_surface * Math.pow (10,6) + ""
+                            }),
+
+                            datasets: [
+                                {
+                                    label: '',
+                                    borderColor: 'rgba(40,50,200,0.5)',
+                                    backgroundColor: 'rgba(40,100,200,0.3)',
+                                    borderWidth: 2,
+                                    data: aggregation.map(agg => { return agg.count * agg.index * V_kleinst / results.volumen })
+                                }
+                            ]
+                        },
+                        options: {
+                            title: {
+                                display: true,
+                                text: 'Verteilung der Dickenäquivalente auf das Gesamtvolumen',
+                                fontSize: 20,
+                            },
+                            legend:{display:false},
+                            //tooltips: { enabled: false },
+                            hover: { mode: null },
+                            scales: {
+                                yAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Anteil am Gesamtvolumen'
+                                    }
+                                }],
+                                xAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Dickenäquivalent in µm'
+                                    }
+                                }]
+                            }
+                        }
+
+                    })
+
+            }
+
+        }
+
+        var activateMode = (mode) => {
+            if (portrayMode != mode) {
+                portrayMode = mode;
+                portray(currentRun, portrayMode)
+            }
+        }
+        var changeRun = function (Richtung) {
+            var next = currentRun + Richtung;
+            if (next > 0 && next <= allResults.length) {
+                currentRun = next;
+
+                assessBackFurtherButtons();
+            }
+            portray(currentRun, portrayMode);
+        }
+        var assessBackFurtherButtons = function () {
+
+            if (currentRun == 1) {
+                document.getElementById("back").disabled = true;
+            } else { document.getElementById("back").disabled = false; }
+            if (currentRun == allResults.length) {
+                document.getElementById("further").disabled = true;
+            } else { document.getElementById("further").disabled = false; }
+        }
+    </script>
+</body>
