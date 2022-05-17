@@ -1,12 +1,12 @@
 var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
 
-    const unify = function (bubble) {
+    const unify = function (tropfen) {
         return {
-            x: bubble.x / a,
-            y: bubble.y / a,
-            r: bubble.r / a,
-            id: bubble.id,
-            V_original: bubble.V
+            x: tropfen.x / a,
+            y: tropfen.y / a,
+            r: tropfen.r / a,
+            id: tropfen.id,
+            V_original: tropfen.V
         }
     }
 
@@ -15,15 +15,15 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
         return Math.pow(Math.pow(b1.x - b2.x, 2) + Math.pow(b1.y - b2.y, 2), 1 / 2);
     };
 
-    const doMeet = function (bubble1, bubble2) {
-        //console.log("Figuring out wether", bubble1.id, "and", bubble2.id, "meet.");
-        if (dist(bubble1, bubble2) < bubble1.r + bubble2.r) { return true } return false
+    const doMeet = function (tropfen1, tropfen2) {
+        //console.log("Figuring out wether", tropfen1.id, "and", tropfen2.id, "meet.");
+        if (dist(tropfen1, tropfen2) < tropfen1.r + tropfen2.r) { return true } return false
     }
 
     const torusMeet = function (oldT, newT) {
 
         if (doMeet(oldT, newT)) {
-            return sumBubble(oldT, newT);
+            return sumtropfen(oldT, newT);
         }
 
         if (oldT.ctxB) {
@@ -37,7 +37,7 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
         }
 
         if(oldT.ctxB||oldT.ctyB){
-            return sumBubble(oldT,newT);
+            return sumtropfen(oldT,newT);
         }
         return false;
     }
@@ -60,14 +60,14 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
         return tropfen
     }
 
-    const sumBubble = function (bubble1, bubble2) {
-        var r = getR(bubble1.V + bubble2.V);
-        var distx = bubble2.x - bubble1.x;
-        var disty = bubble2.y - bubble1.y;
-        var t = 1 - bubble1.V / (bubble1.V + bubble2.V);
-        var x = slide(t * distx + bubble1.x);
-        var y = slide(t * disty + bubble1.y);        
-        return { x: x, r: r, y: y, V: bubble1.V + bubble2.V, original: false }
+    const sumTropfen = function (bubble1, bubble2) {
+        var r = getR(tropfen1.V + tropfen2.V);
+        var distx = tropfen2.x - tropfen1.x;
+        var disty = tropfen2.y - tropfen1.y;
+        var t = 1 - tropfen1.V / (tropfen1.V + tropfen2.V);
+        var x = slide(t * distx + tropfen1.x);
+        var y = slide(t * disty + tropfen1.y);        
+        return { x: x, r: r, y: y, V: tropfen1.V + tropfen2.V, original: false }
     }
 
     const slide = function(value){
@@ -97,46 +97,46 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
     var a = 0.1;                                        //Seitenlänge der Kondensationsfläche in Metern
 
     var circles = [];
-    var newBubbles = [];
+    var newTropfen = [];
     let V_current = 0;
 
     do {
         V_current += V_Tröpfchen;
 
-        newBubbles.push({
+        newTropfen.push({
             x: Math.random() * a,
             y: Math.random() * a,
             r: getR(V_Tröpfchen),
             V: V_Tröpfchen,
         })
 
-        for (var i = 0; i < newBubbles.length; i++) {
-            if (newBubbles[i]) {
-                newBubbles[i].id = circles.length;
+        for (var i = 0; i < newTropfen.length; i++) {
+            if (newTropfen[i]) {
+                newTropfen[i].id = circles.length;
                 for (var c = 0; c < circles.length; c++) {
                     if (circles[c]) {
-                        var sumB = torusMeet(circles[c], newBubbles[i])  //returns null or sumBubble
+                        var sumB = torusMeet(circles[c], newTropfen[i])  //returns null or sumTropfen
                         if (sumB) {
-                            newBubbles.push(sumB);
+                            newTropfen.push(sumB);
                             circles[c] = null;
-                            newBubbles[i] = null;
+                            newTropfen[i] = null;
                             break;
                         }
                     }
                 }
-                if (newBubbles[i]) {
-                    newBubbles[i] = closetoBorders(newBubbles[i]);
-                    circles.push(newBubbles[i]);
-                    newBubbles[i] = null;
+                if (newTropfen[i]) {
+                    newTropfen[i] = closetoBorders(newTropfen[i]);
+                    circles.push(newTropfen[i]);
+                    newTropfen[i] = null;
                 }
             }
         }
 
-        newBubbles = [];
+        newTropfen = [];
 
     } while (V_current < V_gesamt)
 
-    var bubbleCount = 0;
+    var tropfenCount = 0;
     var wassermenge = 0;
     var Heizfläche = 0;
 
@@ -144,7 +144,7 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
 
     for (let i = 0; i < circles.length; i++) {
         if (circles[i] != null) {
-            bubbleCount++;
+            tropfenCount++;
             wassermenge += circles[i].V;
             Heizfläche += Math.pow(circles[i].r, 2) * Math.PI;
             circles[i] = unify(circles[i]);
@@ -159,7 +159,7 @@ var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
     information.k = Heizfläche / Math.pow(a, 2);;
     information.circles = circles;
 
-    console.log(bubbleCount + " of total " + Bubble_number + " Bubbles are still visible on the screen.");
+    console.log(tropfenCount + " of total " + Bubble_number + " Bubbles are still visible on the screen.");
     console.log(" Messunsicherheit in Prozent: ", information.uncertainty);
     console.log("k = " + information.k);
 

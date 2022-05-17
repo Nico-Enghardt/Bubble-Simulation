@@ -1,0 +1,39 @@
+{
+  "parameter": {
+    "volume": 0.00000117,
+    "number": [
+      4000000
+    ],
+    "angle": 60,
+    "i": 1
+  },
+  "run_information": {
+    "Tag": "7.0.2021",
+    "Zeit": "14:27",
+    "Dauer": "15 Stunden, 30 Minuten, 0.013936000000001513"
+  },
+  "runs": [
+    {
+      "n": 4000000,
+      "information": [
+        {
+          "Bubble_number": 4000000,
+          "bubblePercentage": 0.96685,
+          "uncertainty": 0.000024999997226521448,
+          "k": 0.6855731760005505
+        }
+      ],
+      "werte": [
+        0.6855731760005505
+      ],
+      "standardabweichung": null,
+      "average": 0.6855731760005505
+    }
+  ],
+  "ergebnisse": [
+    {
+      "average": 0.6855731760005505,
+      "standardabweichung": null
+    }
+  ]
+}

@@ -1,6 +1,9 @@
  var simulate = function (V_gesamt, Bubble_number, Grenzflächenwinkel) {
-    
-    const unify = function (bubble) {
+    //V_gesamt: Gesamtes zu kondensierendes Volumen in Kubikmetern
+    //Bubble_number: Menge an Tröpfchen, auf die das Gesamtvolumen aufgeteilt wird
+    //Grenzflächenwinkel: Kontaktwinkel zwischen Tropfenoberfläche und Untergrund
+
+    const unify = function (bubble) {   //Funktion normalisiert die Werte eines Tropfens 
         return {
             x: bubble.x / a,
             y: bubble.y / a,
@@ -21,7 +24,7 @@
         if (dist(bubble1, bubble2) < bubble1.r + bubble2.r) { return true } return false
     }
 
-    const sumBubble = function (bubble1, bubble2) {
+    const sumTropfen = function (bubble1, bubble2) {
         var r = getR(bubble1.V + bubble2.V);
         var distx = bubble2.x - bubble1.x;
         var disty = bubble2.y - bubble1.y;
@@ -42,50 +45,47 @@
         return (2 - 3 * cos_w + Math.pow(cos_w, 3)) / (3 * Math.pow(sin_w, 3));
     }
 
-    //V_gesamt: Gesamtes zu kondensierendes Volumen in Kubikmetern
-    //Bubble_number: Menge an Tröpfchen, auf die das Gesamtvolumen aufgeteilt wird
-    //Grenzflächenwinkel: siehe Dokumentation
+    
     var reducedWinkel = reduced(Grenzflächenwinkel);    //Einmalig errechneter Faktor, der für die Radiusberechnung des Kugelschnittes verwendet wird
     var V_Tröpfchen = V_gesamt / Bubble_number;              //Kleinstvolumen
-    var a = 0.1;                                        //Seitenlänge der Kondensationsfläche in Metern
+    var A = 8.618 * Math.pow(10,-6);
+    var a = Math.pow(A,1/2)          //Seitenlänge der Kondensationsfläche in Metern
 
     var circles = [];
-    var newBubbles = [];
+    var newTropfen = [];
     let V_current = 0;
 
     do {
         V_current += V_Tröpfchen;
 
-        newBubbles.push({
+        newTropfen.push({
             x: Math.random() * a,
             y: Math.random() * a,
             r: getR(V_Tröpfchen),
             V: V_Tröpfchen,
         })
         
-        for (var i = 0; i < newBubbles.length; i++) {
-            if (newBubbles[i]) {
-                newBubbles[i].id = circles.length;
+        for (var i = 0; i < newTropfen.length; i++) {
+            if (newTropfen[i]) {
+                newTropfen[i].id = circles.length;
                 for (var c = 0; c < circles.length; c++) {
                     if (circles[c]) {
-                        if (doMeet(circles[c], newBubbles[i])) {
-                            //console.log(circles[c].id, "and the new Bubble", i, "were close enough to melt into a new bubble");
-                            //console.log(circles[c], newBubbles[i]);
-                            newBubbles.push(sumBubble(circles[c], newBubbles[i]));
+                        if (doMeet(circles[c], newTropfen[i])) {
+                            newTropfen.push(sumTropfen(circles[c], newTropfen[i]));
                             circles[c] = null;
-                            newBubbles[i] = null;
+                            newTropfen[i] = null;
                             break;
                         }
                     }
                 }
-                if (newBubbles[i]) {
-                    circles.push(newBubbles[i]);
-                    newBubbles[i] = null;
+                if (newTropfen[i]) {
+                    circles.push(newTropfen[i]);
+                    newTropfen[i] = null;
                 }
             }
         }
 
-        newBubbles = [];
+        newTropfen = [];
 
     } while (V_current < V_gesamt)
 
@@ -106,8 +106,6 @@
 
     var information = {};
 
-
-
     information.Bubble_number = Bubble_number;
     information.BubbleCount = bubbleCount;
     information.bubblePercentage = bubbleCount / Bubble_number * 100;
@@ -115,14 +113,13 @@
     information.k = Heizfläche / Math.pow(a, 2);;
     information.circles = circles.filter(circle => {return circle!=null});
     information.meanD = information.circles.map(circle => {return circle.d}).reduce((sum,d) => {return sum + d})/Bubble_number;
-    //information.heightEquivalents = information.circles;
 
-    console.log(bubbleCount + " of total " + Bubble_number + " Bubbles are still visible on the screen.");
-    console.log(" Messunsicherheit in Prozent: ", information.uncertainty);
-    console.log("k = " + information.k);
-    console.log("meanD is "+ information.meanD*1000 + " mm")
+    //console.log(bubbleCount + " of total " + Bubble_number + " Bubbles are still visible on the screen.");
+    //console.log(" Messunsicherheit in Prozent: ", information.uncertainty);
+    //console.log("k = " + information.k);
+    //console.log("meanD is "+ information.meanD*1000 + " mm")
 
     return information;
 }
 
-module.exports = simulate;
+module.exports = simulate;  //Diese Zeile gibt Fehler aus, wenn man das Script im Browser ausführt. Das ist ein Node.js-Command, mit dem man die Simulationsfunktion in "simulation_save.js" importieren kann.

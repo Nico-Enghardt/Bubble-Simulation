@@ -78,7 +78,7 @@
 </head>
 
 <body>
-    <h1>Kondensations-Simulierung</h1>
+    <h1>Kondensations-Simulation</h1>
     <div class="grid">
         <div id="hl">
             <h2>Simulationsparameter</h2>
@@ -87,7 +87,7 @@
             <form onsubmit="runSimulation(event)">
                 <p>Fläche: A = 1 mm²</p>
                 <p>Gesamtvolumen: V = <input type="number" id="volumen" min="0" max="10" step="0.0000000000000001"
-                        value="1"></p>
+                        value="0.0001"></p>
                 <p>Grenzflächenwinkel: φ = <input type="number" id="winkel" min="0.1" max="179.9" step="0.1" value="45">
                 </p>
                 <p>Kleinsttropfenzahl: n = <input type="number" id="menge" min="1" max="2000000" value="100"></p>
@@ -118,6 +118,7 @@
     <button onclick="activateMode('2D')">2-Dimensional</button>
     <button onclick="activateMode('3D')">3-Dimensional</button>
     <button onclick="activateMode('dist')">Größenverteilung anzeigen </button>
+    <button onclick="activateMode('var')">Varianz anzeigen </button>
 
     <div id="Visualisierung" style="padding: 10px">
         <center>
@@ -181,16 +182,19 @@
                     camera.position.set(0, 6, 10);
                     camera.lookAt(0, 0, 0);
 
-                    const light = new THREE.AmbientLight(0x404040);
+                    const light = new THREE.AmbientLight(0xB2B2B2);
                     scene.add(light);
 
-                    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.3);
-                    directionalLight.position = [0, 1, 0];
+                    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.2);
+                    directionalLight.position = [3, 8, 0];
                     scene.add(directionalLight);
+                    const secondDirectionalLight = new THREE.DirectionalLight(0xffffff, 0.2);
+                    secondDirectionalLight.position = [0, 8, 3];
+                    scene.add(secondDirectionalLight);
 
                     var canvas = document.getElementById("threeD");
                     const renderer = new THREE.WebGLRenderer({ canvas, antialising: true });
-                    renderer.setSize(700, 450);
+                    renderer.setSize(1000, 500);
 
                     var winkel = allResults[currentRun - 1].winkel;
 
@@ -200,11 +204,12 @@
                             var dH = -R * Math.cos(winkel / 180 * Math.PI);
                             var geometry = new THREE.SphereGeometry(R * 10, 30, 30);
                             geometry.translate(element.x * 10 - 5, dH * 10, element.y * 10 - 5);
-                            var material = new THREE.MeshBasicMaterial({ color: 0x00ccff });
+                            var material = new THREE.MeshStandardMaterial({ color: 0x00ccff, flatShading:false, metalness: 0, roughness: 0.2 });
                             const sphere = new THREE.Mesh(geometry, material);
                             scene.add(sphere);
                         }
                     })
+
 
                     // Initializing the plane
                     geometry = new THREE.BoxGeometry(40, 2, 40);
@@ -226,14 +231,18 @@
                         requestAnimationFrame(animate);
                         renderer.render(scene, camera);
                         t += 0.01;
-                        camera.position.set(0 + Math.sin(t) * 1.4, 4 + Math.sin(t / 3) * 2, 10);
+                        wx = 0.43
+                        wy = wx
+                        wz = 0.98
+                        //camera.position.set(Math.sin(t*wx) * 1, 3+  Math.sin(t*wy) * 1, 3 + Math.sin(t*wz) * 1,);
+                        camera.position.set(8*Math.sin(t*wx),3 + 2*Math.sin(t*wz),8*Math.sin(t*wy+3.1415/2))
                         camera.lookAt(0, 0, 0);
                     }
                     animate();
                     break;
                 case "2D":
                     document.getElementById("container").style.display = "block";
-                    let size = 480;
+                    let size = 1000;
 
                     visual = document.getElementById("Visualisierung");
                     var stage = new Konva.Stage({
@@ -272,16 +281,12 @@
                     var V_kleinst = results.volumen / results.menge;
                     var V_max = Math.max(...results.circles.map(circle => { return circle.V_original }))
 
-
-
                     const reducedWinkel = function (alpha) {
                         alpha *= Math.PI / 180;
                         let cos_w = Math.cos(alpha);
                         let sin_w = Math.sin(alpha);
                         return (2 - 3 * cos_w + Math.pow(cos_w, 3)) / (3 * Math.pow(sin_w, 3));
                     }
-
-                    console.log(reducedWinkel)
 
                     const getR = function (V) {
                         return Math.pow(V / Math.PI / reducedWinkel(results.winkel), 1 / 3)
@@ -296,13 +301,12 @@
 
                     // für jeden einzelnen Tropfen Größe berechnen und ihn zuordnen
                     results.circles.forEach(circle => {
-                        console.log(Math.round(circle.V_original / V_kleinst - 1));
-                        console.log(circle)
+
                         aggregation[Math.round(circle.V_original / V_kleinst - 1)].count++;
                     })
 
                     var last = aggregation.pop();
-                    if(last.count>0){
+                    if (last.count > 0) {
                         aggregation.push(last);
                     }
 
@@ -318,7 +322,7 @@
                             labels: aggregation.map(agg => {
                                 var volume = agg.index * V_kleinst;
                                 var heating_surface = getR(volume);
-                                return volume / heating_surface * Math.pow (10,6) + ""
+                                return volume / heating_surface * Math.pow(10, 6) + ""
                             }),
 
                             datasets: [
@@ -337,7 +341,7 @@
                                 text: 'Verteilung der Dickenäquivalente auf das Gesamtvolumen',
                                 fontSize: 20,
                             },
-                            legend:{display:false},
+                            legend: { display: false },
                             //tooltips: { enabled: false },
                             hover: { mode: null },
                             scales: {
@@ -356,8 +360,82 @@
                             }
                         }
 
-                    })
 
+                    })
+                    break;
+                case 'var':
+                    labels = [];
+                    data = [];
+                    areas = results.circles.map(c => { return c.r * c.r * Math.PI }).sort();
+                    console.log(areas)
+                    ges = sum(areas)
+                    for (var part = 0; part < 1; part += 0.05) {
+                        labels.push(part);
+                        var i = 0;
+                        var teilarr = [];
+                        while (part * ges > sum(teilarr)) {
+                            teilarr.push(areas[i])
+                            i++;
+                        }
+                        var last = teilarr.pop()
+                        var x = (part * ges - sum(teilarr)) / last
+                        console.log(teilarr.length)
+                        if(teilarr.length==0){
+                            data.push(0)
+                        } else{data.push((teilarr.length + x) / areas.length)}
+                        
+                    }
+                    data.push(1);labels.push(1)
+                    console.log(labels,data)
+
+                    var ctx = document.getElementById('Distribution-Chart').getContext('2d');
+                    if (window.chart != undefined) {
+                        window.chart.destroy();
+                    }
+                    window.chart = new Chart(ctx, {
+                        type: 'line',
+                        responsive: false,
+                        aspectRatio: 2,
+                        data: {
+                            labels: labels,
+
+                            datasets: [
+                                {
+                                    label: '',
+                                    borderColor: 'rgba(40,50,200,0.5)',
+                                    backgroundColor: 'rgba(40,100,200,0.3)',
+                                    borderWidth: 2,
+                                    data: data,
+                                }
+                            ]
+                        },
+                        options: {
+                            title: {
+                                display: true,
+                                text: 'Verteilung der Dickenäquivalente auf das Gesamtvolumen',
+                                fontSize: 20,
+                            },
+                            legend: { display: false },
+                            //tooltips: { enabled: false },
+                            hover: { mode: null },
+                            scales: {
+                                yAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Anteil kleinster Tropfen bis zur Schwelle'
+                                    }
+                                }],
+                                xAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Anteil am Gesamtvolumen'
+                                    }
+                                }]
+                            }
+                        }
+
+
+                    })
             }
 
         }
@@ -367,6 +445,9 @@
                 portrayMode = mode;
                 portray(currentRun, portrayMode)
             }
+        }
+        var sum = (arr) => {
+            return arr.reduce((a,b)=>a+b,0)
         }
         var changeRun = function (Richtung) {
             var next = currentRun + Richtung;
@@ -386,5 +467,6 @@
                 document.getElementById("further").disabled = true;
             } else { document.getElementById("further").disabled = false; }
         }
+    
     </script>
 </body>

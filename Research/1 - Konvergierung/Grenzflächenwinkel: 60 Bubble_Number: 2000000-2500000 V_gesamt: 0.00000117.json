@@ -1,0 +1,60 @@
+{
+  "parameter": {
+    "volume": 0.00000117,
+    "number": [
+      2000000,
+      2500000
+    ],
+    "angle": 60,
+    "i": 1
+  },
+  "run_information": {
+    "Tag": "5.0.2021",
+    "Zeit": "21:43",
+    "Dauer": "12 Stunden, 46 Minuten, 0.040487999999997554"
+  },
+  "runs": [
+    {
+      "n": 2000000,
+      "information": [
+        {
+          "Bubble_number": 2000000,
+          "bubblePercentage": 1.2876500000000002,
+          "uncertainty": 0.00005000000055240407,
+          "k": 0.6597653192613939
+        }
+      ],
+      "werte": [
+        0.6597653192613939
+      ],
+      "standardabweichung": null,
+      "average": 0.6597653192613939
+    },
+    {
+      "n": 2500000,
+      "information": [
+        {
+          "Bubble_number": 2500000,
+          "bubblePercentage": 1.1794799999999999,
+          "uncertainty": 2.51576024932367e-12,
+          "k": 0.6676529950076139
+        }
+      ],
+      "werte": [
+        0.6676529950076139
+      ],
+      "standardabweichung": null,
+      "average": 0.6676529950076139
+    }
+  ],
+  "ergebnisse": [
+    {
+      "average": 0.6597653192613939,
+      "standardabweichung": null
+    },
+    {
+      "average": 0.6676529950076139,
+      "standardabweichung": null
+    }
+  ]
+}

@@ -1,0 +1,5478 @@
+{
+  "parameter": {
+    "volume": 5e-7,
+    "number": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200,
+      210,
+      220,
+      230,
+      240,
+      250,
+      260,
+      270,
+      280,
+      290,
+      300,
+      310,
+      320,
+      330,
+      340,
+      350,
+      360,
+      370,
+      380,
+      390,
+      400,
+      410,
+      420,
+      430,
+      440,
+      450,
+      460,
+      470,
+      480,
+      490,
+      500,
+      510,
+      520,
+      530,
+      540,
+      550,
+      560,
+      570,
+      580,
+      590,
+      600,
+      610,
+      620,
+      630,
+      640,
+      650,
+      660,
+      670,
+      680,
+      690,
+      700,
+      710,
+      720,
+      730,
+      740,
+      750,
+      760,
+      770,
+      780,
+      790,
+      800,
+      810,
+      820,
+      830,
+      840,
+      850,
+      860,
+      870,
+      880,
+      890,
+      900,
+      910,
+      920,
+      930,
+      940,
+      950,
+      960,
+      970,
+      980,
+      990,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6000,
+      7000,
+      8000,
+      9000,
+      10000,
+      20000,
+      30000,
+      40000,
+      50000,
+      60000,
+      70000,
+      80000,
+      90000,
+      100000
+    ],
+    "angle": 70
+  },
+  "run_information": {
+    "Tag": "17.11.2020",
+    "Zeit": "16:58",
+    "Dauer": "36 Minuten, 0.008394999999999982"
+  },
+  "runs": [
+    {
+      "number": 1,
+      "information": [
+        {
+          "Bubble_number": 1,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.016790819046637838
+        },
+        {
+          "Bubble_number": 1,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.016790819046637838
+        },
+        {
+          "Bubble_number": 1,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.016790819046637838
+        },
+        {
+          "Bubble_number": 1,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.016790819046637838
+        }
+      ],
+      "werte": [
+        0.016790819046637838,
+        0.016790819046637838,
+        0.016790819046637838,
+        0.016790819046637838
+      ],
+      "standardabweichung": 0,
+      "average": 0.016790819046637838
+    },
+    {
+      "number": 2,
+      "information": [
+        {
+          "Bubble_number": 2,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.021155106361834777
+        },
+        {
+          "Bubble_number": 2,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.021155106361834777
+        },
+        {
+          "Bubble_number": 2,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.021155106361834777
+        },
+        {
+          "Bubble_number": 2,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.021155106361834777
+        }
+      ],
+      "werte": [
+        0.021155106361834777,
+        0.021155106361834777,
+        0.021155106361834777,
+        0.021155106361834777
+      ],
+      "standardabweichung": 0,
+      "average": 0.021155106361834777
+    },
+    {
+      "number": 3,
+      "information": [
+        {
+          "Bubble_number": 3,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02421655155512288
+        },
+        {
+          "Bubble_number": 3,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02421655155512288
+        },
+        {
+          "Bubble_number": 3,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02421655155512288
+        },
+        {
+          "Bubble_number": 3,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02421655155512288
+        }
+      ],
+      "werte": [
+        0.02421655155512288,
+        0.02421655155512288,
+        0.02421655155512288,
+        0.02421655155512288
+      ],
+      "standardabweichung": 0,
+      "average": 0.02421655155512288
+    },
+    {
+      "number": 4,
+      "information": [
+        {
+          "Bubble_number": 4,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02665376381804059
+        },
+        {
+          "Bubble_number": 4,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02665376381804059
+        },
+        {
+          "Bubble_number": 4,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02665376381804059
+        },
+        {
+          "Bubble_number": 4,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.02665376381804059
+        }
+      ],
+      "werte": [
+        0.02665376381804059,
+        0.02665376381804059,
+        0.02665376381804059,
+        0.02665376381804059
+      ],
+      "standardabweichung": 0,
+      "average": 0.02665376381804059
+    },
+    {
+      "number": 5,
+      "information": [
+        {
+          "Bubble_number": 5,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.028711896694751656
+        },
+        {
+          "Bubble_number": 5,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.028711896694751656
+        },
+        {
+          "Bubble_number": 5,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.028711896694751656
+        },
+        {
+          "Bubble_number": 5,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.028711896694751656
+        }
+      ],
+      "werte": [
+        0.028711896694751656,
+        0.028711896694751656,
+        0.028711896694751656,
+        0.028711896694751656
+      ],
+      "standardabweichung": 0,
+      "average": 0.028711896694751656
+    },
+    {
+      "number": 6,
+      "information": [
+        {
+          "Bubble_number": 6,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03051094306016373
+        },
+        {
+          "Bubble_number": 6,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03051094306016373
+        },
+        {
+          "Bubble_number": 6,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03051094306016373
+        },
+        {
+          "Bubble_number": 6,
+          "bubblePercentage": 66.66666666666666,
+          "uncertainty": 0,
+          "k": 0.026314682056803162
+        }
+      ],
+      "werte": [
+        0.03051094306016373,
+        0.03051094306016373,
+        0.03051094306016373,
+        0.026314682056803162
+      ],
+      "standardabweichung": 0.0020981305016802843,
+      "average": 0.029461877809323588
+    },
+    {
+      "number": 7,
+      "information": [
+        {
+          "Bubble_number": 7,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03211968133860209
+        },
+        {
+          "Bubble_number": 7,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03211968133860209
+        },
+        {
+          "Bubble_number": 7,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03211968133860209
+        },
+        {
+          "Bubble_number": 7,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03211968133860209
+        }
+      ],
+      "werte": [
+        0.03211968133860209,
+        0.03211968133860209,
+        0.03211968133860209,
+        0.03211968133860209
+      ],
+      "standardabweichung": 0,
+      "average": 0.03211968133860209
+    },
+    {
+      "number": 8,
+      "information": [
+        {
+          "Bubble_number": 8,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03358163809327568
+        },
+        {
+          "Bubble_number": 8,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03358163809327568
+        },
+        {
+          "Bubble_number": 8,
+          "bubblePercentage": 75,
+          "uncertainty": 0,
+          "k": 0.030117700955658133
+        },
+        {
+          "Bubble_number": 8,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.03358163809327568
+        }
+      ],
+      "werte": [
+        0.03358163809327568,
+        0.03358163809327568,
+        0.030117700955658133,
+        0.03358163809327568
+      ],
+      "standardabweichung": 0.0017319685688087748,
+      "average": 0.032715653808871294
+    },
+    {
+      "number": 9,
+      "information": [
+        {
+          "Bubble_number": 9,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.034926311074703176
+        },
+        {
+          "Bubble_number": 9,
+          "bubblePercentage": 88.88888888888889,
+          "uncertainty": 0,
+          "k": 0.033325137829363846
+        },
+        {
+          "Bubble_number": 9,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.034926311074703176
+        },
+        {
+          "Bubble_number": 9,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.034926311074703176
+        }
+      ],
+      "werte": [
+        0.034926311074703176,
+        0.033325137829363846,
+        0.034926311074703176,
+        0.034926311074703176
+      ],
+      "standardabweichung": 0.0008005866226696649,
+      "average": 0.03452601776336835
+    },
+    {
+      "number": 10,
+      "information": [
+        {
+          "Bubble_number": 10,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.036174723028124654
+        },
+        {
+          "Bubble_number": 10,
+          "bubblePercentage": 80,
+          "uncertainty": 0,
+          "k": 0.032846951737105785
+        },
+        {
+          "Bubble_number": 10,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.036174723028124654
+        },
+        {
+          "Bubble_number": 10,
+          "bubblePercentage": 100,
+          "uncertainty": 0,
+          "k": 0.036174723028124654
+        }
+      ],
+      "werte": [
+        0.036174723028124654,
+        0.032846951737105785,
+        0.036174723028124654,
+        0.036174723028124654
+      ],
+      "standardabweichung": 0.0016638856455094345,
+      "average": 0.03534278020536994
+    },
+    {
+      "number": 20,
+      "information": [
+        {
+          "Bubble_number": 20,
+          "bubblePercentage": 95,
+          "uncertainty": 4.999999999999973,
+          "k": 0.04597564537028834
+        },
+        {
+          "Bubble_number": 20,
+          "bubblePercentage": 105,
+          "uncertainty": 4.999999999999952,
+          "k": 0.04785615976811362
+        },
+        {
+          "Bubble_number": 20,
+          "bubblePercentage": 100,
+          "uncertainty": 4.999999999999973,
+          "k": 0.04691590256920097
+        },
+        {
+          "Bubble_number": 20,
+          "bubblePercentage": 105,
+          "uncertainty": 4.999999999999952,
+          "k": 0.04785615976811362
+        }
+      ],
+      "werte": [
+        0.04597564537028834,
+        0.04785615976811362,
+        0.04691590256920097,
+        0.04785615976811362
+      ],
+      "standardabweichung": 0.0009002277305020048,
+      "average": 0.04715096686892913
+    },
+    {
+      "number": 30,
+      "information": [
+        {
+          "Bubble_number": 30,
+          "bubblePercentage": 83.33333333333334,
+          "uncertainty": 0,
+          "k": 0.04842050155726733
+        },
+        {
+          "Bubble_number": 30,
+          "bubblePercentage": 90,
+          "uncertainty": 2.117582368135751e-14,
+          "k": 0.04985560263361213
+        },
+        {
+          "Bubble_number": 30,
+          "bubblePercentage": 93.33333333333333,
+          "uncertainty": 2.117582368135751e-14,
+          "k": 0.05073787766695748
+        },
+        {
+          "Bubble_number": 30,
+          "bubblePercentage": 96.66666666666667,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.05145542820512988
+        }
+      ],
+      "werte": [
+        0.04842050155726733,
+        0.04985560263361213,
+        0.05073787766695748,
+        0.05145542820512988
+      ],
+      "standardabweichung": 0.0013068172774458912,
+      "average": 0.0501173525157417
+    },
+    {
+      "number": 40,
+      "information": [
+        {
+          "Bubble_number": 40,
+          "bubblePercentage": 95,
+          "uncertainty": 2.499999999999934,
+          "k": 0.056734481188103085
+        },
+        {
+          "Bubble_number": 40,
+          "bubblePercentage": 97.5,
+          "uncertainty": 2.499999999999934,
+          "k": 0.05767473838701572
+        },
+        {
+          "Bubble_number": 40,
+          "bubblePercentage": 95,
+          "uncertainty": 2.499999999999934,
+          "k": 0.0570824134684031
+        },
+        {
+          "Bubble_number": 40,
+          "bubblePercentage": 90,
+          "uncertainty": 2.499999999999934,
+          "k": 0.05589776363117786
+        }
+      ],
+      "werte": [
+        0.056734481188103085,
+        0.05767473838701572,
+        0.0570824134684031,
+        0.05589776363117786
+      ],
+      "standardabweichung": 0.0007425810882086077,
+      "average": 0.05684734916867494
+    },
+    {
+      "number": 50,
+      "information": [
+        {
+          "Bubble_number": 50,
+          "bubblePercentage": 88,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.05867802391916118
+        },
+        {
+          "Bubble_number": 50,
+          "bubblePercentage": 88,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.058795205409954414
+        },
+        {
+          "Bubble_number": 50,
+          "bubblePercentage": 88,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.05879520540995443
+        },
+        {
+          "Bubble_number": 50,
+          "bubblePercentage": 88,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.05867802391916118
+        }
+      ],
+      "werte": [
+        0.05867802391916118,
+        0.058795205409954414,
+        0.05879520540995443,
+        0.05867802391916118
+      ],
+      "standardabweichung": 0.00006765476525351895,
+      "average": 0.058736614664557804
+    },
+    {
+      "number": 60,
+      "information": [
+        {
+          "Bubble_number": 60,
+          "bubblePercentage": 85,
+          "uncertainty": 2.117582368135751e-14,
+          "k": 0.061665577531073705
+        },
+        {
+          "Bubble_number": 60,
+          "bubblePercentage": 86.66666666666667,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.06211760604477711
+        },
+        {
+          "Bubble_number": 60,
+          "bubblePercentage": 88.33333333333333,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.06246586462902965
+        },
+        {
+          "Bubble_number": 60,
+          "bubblePercentage": 81.66666666666667,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.060450210715314326
+        }
+      ],
+      "werte": [
+        0.061665577531073705,
+        0.06211760604477711,
+        0.06246586462902965,
+        0.060450210715314326
+      ],
+      "standardabweichung": 0.0008796901745927631,
+      "average": 0.061674814730048697
+    },
+    {
+      "number": 70,
+      "information": [
+        {
+          "Bubble_number": 70,
+          "bubblePercentage": 90,
+          "uncertainty": 1.4285714285713182,
+          "k": 0.06683163145915005
+        },
+        {
+          "Bubble_number": 70,
+          "bubblePercentage": 87.14285714285714,
+          "uncertainty": 1.4285714285713393,
+          "k": 0.06601586727602297
+        },
+        {
+          "Bubble_number": 70,
+          "bubblePercentage": 87.14285714285714,
+          "uncertainty": 1.4285714285713604,
+          "k": 0.06610950273171368
+        },
+        {
+          "Bubble_number": 70,
+          "bubblePercentage": 90,
+          "uncertainty": 1.428571428571297,
+          "k": 0.06692526691484078
+        }
+      ],
+      "werte": [
+        0.06683163145915005,
+        0.06601586727602297,
+        0.06610950273171368,
+        0.06692526691484078
+      ],
+      "standardabweichung": 0.0004740741155260508,
+      "average": 0.06647056709543188
+    },
+    {
+      "number": 80,
+      "information": [
+        {
+          "Bubble_number": 80,
+          "bubblePercentage": 87.5,
+          "uncertainty": 1.249999999999967,
+          "k": 0.06906359945917993
+        },
+        {
+          "Bubble_number": 80,
+          "bubblePercentage": 87.5,
+          "uncertainty": 1.2499999999999458,
+          "k": 0.0689779392697625
+        },
+        {
+          "Bubble_number": 80,
+          "bubblePercentage": 83.75,
+          "uncertainty": 1.2499999999999458,
+          "k": 0.0676393317178126
+        },
+        {
+          "Bubble_number": 80,
+          "bubblePercentage": 87.5,
+          "uncertainty": 1.2499999999999458,
+          "k": 0.06914925964859735
+        }
+      ],
+      "werte": [
+        0.06906359945917993,
+        0.0689779392697625,
+        0.0676393317178126,
+        0.06914925964859735
+      ],
+      "standardabweichung": 0.0007155602200203593,
+      "average": 0.0687075325238381
+    },
+    {
+      "number": 90,
+      "information": [
+        {
+          "Bubble_number": 90,
+          "bubblePercentage": 92.22222222222223,
+          "uncertainty": 1.1111111111110346,
+          "k": 0.07324363808438518
+        },
+        {
+          "Bubble_number": 90,
+          "bubblePercentage": 84.44444444444444,
+          "uncertainty": 1.1111111111110135,
+          "k": 0.07054707934901994
+        },
+        {
+          "Bubble_number": 90,
+          "bubblePercentage": 84.44444444444444,
+          "uncertainty": 1.1111111111110346,
+          "k": 0.07074971057776744
+        },
+        {
+          "Bubble_number": 90,
+          "bubblePercentage": 95.55555555555556,
+          "uncertainty": 1.1111111111109924,
+          "k": 0.07435771631719894
+        }
+      ],
+      "werte": [
+        0.07324363808438518,
+        0.07054707934901994,
+        0.07074971057776744,
+        0.07435771631719894
+      ],
+      "standardabweichung": 0.0018777644657112754,
+      "average": 0.07222453608209287
+    },
+    {
+      "number": 100,
+      "information": [
+        {
+          "Bubble_number": 100,
+          "bubblePercentage": 82,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.07207411658284402
+        },
+        {
+          "Bubble_number": 100,
+          "bubblePercentage": 86,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.07309766392224827
+        },
+        {
+          "Bubble_number": 100,
+          "bubblePercentage": 84,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.07279106317383034
+        },
+        {
+          "Bubble_number": 100,
+          "bubblePercentage": 83,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.07220679331940437
+        }
+      ],
+      "werte": [
+        0.07207411658284402,
+        0.07309766392224827,
+        0.07279106317383034,
+        0.07220679331940437
+      ],
+      "standardabweichung": 0.000483760477878394,
+      "average": 0.07254240924958175
+    },
+    {
+      "number": 110,
+      "information": [
+        {
+          "Bubble_number": 110,
+          "bubblePercentage": 81.81818181818183,
+          "uncertainty": 0.9090909090908235,
+          "k": 0.07463831502674174
+        },
+        {
+          "Bubble_number": 110,
+          "bubblePercentage": 84.54545454545455,
+          "uncertainty": 0.9090909090908235,
+          "k": 0.07521966642473012
+        },
+        {
+          "Bubble_number": 110,
+          "bubblePercentage": 87.27272727272727,
+          "uncertainty": 0.9090909090908235,
+          "k": 0.07651819128538107
+        },
+        {
+          "Bubble_number": 110,
+          "bubblePercentage": 84.54545454545455,
+          "uncertainty": 0.9090909090908235,
+          "k": 0.07561289071166483
+        }
+      ],
+      "werte": [
+        0.07463831502674174,
+        0.07521966642473012,
+        0.07651819128538107,
+        0.07561289071166483
+      ],
+      "standardabweichung": 0.0007896234990865862,
+      "average": 0.07549726586212943
+    },
+    {
+      "number": 120,
+      "information": [
+        {
+          "Bubble_number": 120,
+          "bubblePercentage": 88.33333333333333,
+          "uncertainty": 0.8333333333332548,
+          "k": 0.07917283059662349
+        },
+        {
+          "Bubble_number": 120,
+          "bubblePercentage": 88.33333333333333,
+          "uncertainty": 0.8333333333331913,
+          "k": 0.07910745963739287
+        },
+        {
+          "Bubble_number": 120,
+          "bubblePercentage": 88.33333333333333,
+          "uncertainty": 0.8333333333332125,
+          "k": 0.0791728305966235
+        },
+        {
+          "Bubble_number": 120,
+          "bubblePercentage": 80.83333333333333,
+          "uncertainty": 0.833333333333276,
+          "k": 0.07641387664087738
+        }
+      ],
+      "werte": [
+        0.07917283059662349,
+        0.07910745963739287,
+        0.0791728305966235,
+        0.07641387664087738
+      ],
+      "standardabweichung": 0.0013689287156871059,
+      "average": 0.07846674936787931
+    },
+    {
+      "number": 130,
+      "information": [
+        {
+          "Bubble_number": 130,
+          "bubblePercentage": 87.6923076923077,
+          "uncertainty": 0.7692307692306382,
+          "k": 0.08093788496410047
+        },
+        {
+          "Bubble_number": 130,
+          "bubblePercentage": 86.15384615384616,
+          "uncertainty": 0.7692307692306805,
+          "k": 0.08039795873560521
+        },
+        {
+          "Bubble_number": 130,
+          "bubblePercentage": 82.3076923076923,
+          "uncertainty": 0.7692307692306805,
+          "k": 0.07882759246253185
+        },
+        {
+          "Bubble_number": 130,
+          "bubblePercentage": 86.15384615384616,
+          "uncertainty": 0.7692307692306382,
+          "k": 0.08058388098920574
+        }
+      ],
+      "werte": [
+        0.08093788496410047,
+        0.08039795873560521,
+        0.07882759246253185,
+        0.08058388098920574
+      ],
+      "standardabweichung": 0.0009334229254716077,
+      "average": 0.0801868292878608
+    },
+    {
+      "number": 140,
+      "information": [
+        {
+          "Bubble_number": 140,
+          "bubblePercentage": 88.57142857142857,
+          "uncertainty": 0.7142857142855532,
+          "k": 0.08332287088007509
+        },
+        {
+          "Bubble_number": 140,
+          "bubblePercentage": 84.28571428571429,
+          "uncertainty": 0.7142857142855744,
+          "k": 0.08172218654014628
+        },
+        {
+          "Bubble_number": 140,
+          "bubblePercentage": 87.85714285714286,
+          "uncertainty": 0.7142857142855955,
+          "k": 0.08288896134109519
+        },
+        {
+          "Bubble_number": 140,
+          "bubblePercentage": 86.42857142857143,
+          "uncertainty": 0.7142857142855955,
+          "k": 0.08230914372125057
+        }
+      ],
+      "werte": [
+        0.08332287088007509,
+        0.08172218654014628,
+        0.08288896134109519,
+        0.08230914372125057
+      ],
+      "standardabweichung": 0.0006964302571872664,
+      "average": 0.08256079062064178
+    },
+    {
+      "number": 150,
+      "information": [
+        {
+          "Bubble_number": 150,
+          "bubblePercentage": 82,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.08202618858995314
+        },
+        {
+          "Bubble_number": 150,
+          "bubblePercentage": 83.33333333333334,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.08267860287936822
+        },
+        {
+          "Bubble_number": 150,
+          "bubblePercentage": 83.33333333333334,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.0826574396216109
+        },
+        {
+          "Bubble_number": 150,
+          "bubblePercentage": 84.66666666666667,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.0832886906532686
+        }
+      ],
+      "werte": [
+        0.08202618858995314,
+        0.08267860287936822,
+        0.0826574396216109,
+        0.0832886906532686
+      ],
+      "standardabweichung": 0.0005155229198096103,
+      "average": 0.08266273043605021
+    },
+    {
+      "number": 160,
+      "information": [
+        {
+          "Bubble_number": 160,
+          "bubblePercentage": 86.25,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.0857911358856496
+        },
+        {
+          "Bubble_number": 160,
+          "bubblePercentage": 81.25,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.08377888581530236
+        },
+        {
+          "Bubble_number": 160,
+          "bubblePercentage": 81.25,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.08369477133625437
+        },
+        {
+          "Bubble_number": 160,
+          "bubblePercentage": 80.625,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.0833517819607412
+        }
+      ],
+      "werte": [
+        0.0857911358856496,
+        0.08377888581530236,
+        0.08369477133625437,
+        0.0833517819607412
+      ],
+      "standardabweichung": 0.001106852779295911,
+      "average": 0.08415414374948688
+    },
+    {
+      "number": 170,
+      "information": [
+        {
+          "Bubble_number": 170,
+          "bubblePercentage": 84.11764705882354,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.0865283281095445
+        },
+        {
+          "Bubble_number": 170,
+          "bubblePercentage": 84.70588235294117,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.08709398929338495
+        },
+        {
+          "Bubble_number": 170,
+          "bubblePercentage": 80,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.0846813553175988
+        },
+        {
+          "Bubble_number": 170,
+          "bubblePercentage": 82.94117647058825,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.08626125432889176
+        }
+      ],
+      "werte": [
+        0.0865283281095445,
+        0.08709398929338495,
+        0.0846813553175988,
+        0.08626125432889176
+      ],
+      "standardabweichung": 0.0010333174964443138,
+      "average": 0.086141231762355
+    },
+    {
+      "number": 180,
+      "information": [
+        {
+          "Bubble_number": 180,
+          "bubblePercentage": 81.11111111111111,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.08711663992209698
+        },
+        {
+          "Bubble_number": 180,
+          "bubblePercentage": 85.55555555555556,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.08905469058272655
+        },
+        {
+          "Bubble_number": 180,
+          "bubblePercentage": 86.11111111111111,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.08914435355071246
+        },
+        {
+          "Bubble_number": 180,
+          "bubblePercentage": 82.77777777777777,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.08781846523047282
+        }
+      ],
+      "werte": [
+        0.08711663992209698,
+        0.08905469058272655,
+        0.08914435355071246,
+        0.08781846523047282
+      ],
+      "standardabweichung": 0.0009854987778382127,
+      "average": 0.0882835373215022
+    },
+    {
+      "number": 190,
+      "information": [
+        {
+          "Bubble_number": 190,
+          "bubblePercentage": 85.26315789473684,
+          "uncertainty": 0.5263157894735989,
+          "k": 0.09064216593519821
+        },
+        {
+          "Bubble_number": 190,
+          "bubblePercentage": 86.31578947368422,
+          "uncertainty": 0.5263157894735989,
+          "k": 0.09132889837015058
+        },
+        {
+          "Bubble_number": 190,
+          "bubblePercentage": 84.73684210526315,
+          "uncertainty": 0.5263157894735989,
+          "k": 0.09028252823143762
+        },
+        {
+          "Bubble_number": 190,
+          "bubblePercentage": 85.26315789473684,
+          "uncertainty": 0.5263157894735989,
+          "k": 0.09081341765635007
+        }
+      ],
+      "werte": [
+        0.09064216593519821,
+        0.09132889837015058,
+        0.09028252823143762,
+        0.09081341765635007
+      ],
+      "standardabweichung": 0.0004351936620779327,
+      "average": 0.09076675254828412
+    },
+    {
+      "number": 200,
+      "information": [
+        {
+          "Bubble_number": 200,
+          "bubblePercentage": 83.5,
+          "uncertainty": 0.4999999999997623,
+          "k": 0.09137586783083698
+        },
+        {
+          "Bubble_number": 200,
+          "bubblePercentage": 83,
+          "uncertainty": 0.4999999999997623,
+          "k": 0.09121979906358713
+        },
+        {
+          "Bubble_number": 200,
+          "bubblePercentage": 83,
+          "uncertainty": 0.49999999999974115,
+          "k": 0.09140822842442807
+        },
+        {
+          "Bubble_number": 200,
+          "bubblePercentage": 78.5,
+          "uncertainty": 0.49999999999980466,
+          "k": 0.0894455674539101
+        }
+      ],
+      "werte": [
+        0.09137586783083698,
+        0.09121979906358713,
+        0.09140822842442807,
+        0.0894455674539101
+      ],
+      "standardabweichung": 0.0009481080163186045,
+      "average": 0.09086236569319056
+    },
+    {
+      "number": 210,
+      "information": [
+        {
+          "Bubble_number": 210,
+          "bubblePercentage": 79.52380952380952,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.090688623450206
+        },
+        {
+          "Bubble_number": 210,
+          "bubblePercentage": 81.9047619047619,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.0920818347749939
+        },
+        {
+          "Bubble_number": 210,
+          "bubblePercentage": 81.9047619047619,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.09198651439893148
+        },
+        {
+          "Bubble_number": 210,
+          "bubblePercentage": 85.23809523809524,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.09342930700260368
+        }
+      ],
+      "werte": [
+        0.090688623450206,
+        0.0920818347749939,
+        0.09198651439893148,
+        0.09342930700260368
+      ],
+      "standardabweichung": 0.0011196473745547306,
+      "average": 0.09204656990668375
+    },
+    {
+      "number": 220,
+      "information": [
+        {
+          "Bubble_number": 220,
+          "bubblePercentage": 80.9090909090909,
+          "uncertainty": 0.4545454545453694,
+          "k": 0.09327587647887886
+        },
+        {
+          "Bubble_number": 220,
+          "bubblePercentage": 80,
+          "uncertainty": 0.4545454545453694,
+          "k": 0.09285203347702156
+        },
+        {
+          "Bubble_number": 220,
+          "bubblePercentage": 85.45454545454545,
+          "uncertainty": 0.4545454545453694,
+          "k": 0.09541947596700973
+        },
+        {
+          "Bubble_number": 220,
+          "bubblePercentage": 80.9090909090909,
+          "uncertainty": 0.4545454545453694,
+          "k": 0.09327587647887886
+        }
+      ],
+      "werte": [
+        0.09327587647887886,
+        0.09285203347702156,
+        0.09541947596700973,
+        0.09327587647887886
+      ],
+      "standardabweichung": 0.0011597803042988088,
+      "average": 0.09370581560044726
+    },
+    {
+      "number": 230,
+      "information": [
+        {
+          "Bubble_number": 230,
+          "bubblePercentage": 80.43478260869566,
+          "uncertainty": 3.3881317890172014e-13,
+          "k": 0.09429346626184079
+        },
+        {
+          "Bubble_number": 230,
+          "bubblePercentage": 83.04347826086956,
+          "uncertainty": 3.1763735522036263e-13,
+          "k": 0.09546680686004516
+        },
+        {
+          "Bubble_number": 230,
+          "bubblePercentage": 82.6086956521739,
+          "uncertainty": 3.8116482626443515e-13,
+          "k": 0.09506544646257058
+        },
+        {
+          "Bubble_number": 230,
+          "bubblePercentage": 79.56521739130434,
+          "uncertainty": 3.1763735522036263e-13,
+          "k": 0.09362160942493389
+        }
+      ],
+      "werte": [
+        0.09429346626184079,
+        0.09546680686004516,
+        0.09506544646257058,
+        0.09362160942493389
+      ],
+      "standardabweichung": 0.0008202937651366941,
+      "average": 0.0946118322523476
+    },
+    {
+      "number": 240,
+      "information": [
+        {
+          "Bubble_number": 240,
+          "bubblePercentage": 84.16666666666667,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.09708956654686526
+        },
+        {
+          "Bubble_number": 240,
+          "bubblePercentage": 81.66666666666667,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.09620581482394903
+        },
+        {
+          "Bubble_number": 240,
+          "bubblePercentage": 82.5,
+          "uncertainty": 1.0587911840678754e-13,
+          "k": 0.0964362073701403
+        },
+        {
+          "Bubble_number": 240,
+          "bubblePercentage": 80,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.09528021976616402
+        }
+      ],
+      "werte": [
+        0.09708956654686526,
+        0.09620581482394903,
+        0.0964362073701403,
+        0.09528021976616402
+      ],
+      "standardabweichung": 0.0007487626109836949,
+      "average": 0.09625295212677966
+    },
+    {
+      "number": 250,
+      "information": [
+        {
+          "Bubble_number": 250,
+          "bubblePercentage": 80.4,
+          "uncertainty": 0.39999999999981833,
+          "k": 0.09692197583402934
+        },
+        {
+          "Bubble_number": 250,
+          "bubblePercentage": 80.4,
+          "uncertainty": 0.3999999999998395,
+          "k": 0.09696676076631067
+        },
+        {
+          "Bubble_number": 250,
+          "bubblePercentage": 76.8,
+          "uncertainty": 0.3999999999998395,
+          "k": 0.0951530828199324
+        },
+        {
+          "Bubble_number": 250,
+          "bubblePercentage": 80.80000000000001,
+          "uncertainty": 0.39999999999981833,
+          "k": 0.0971637247250592
+        }
+      ],
+      "werte": [
+        0.09692197583402934,
+        0.09696676076631067,
+        0.0951530828199324,
+        0.0971637247250592
+      ],
+      "standardabweichung": 0.0009380979904693359,
+      "average": 0.0965513860363329
+    },
+    {
+      "number": 260,
+      "information": [
+        {
+          "Bubble_number": 260,
+          "bubblePercentage": 80,
+          "uncertainty": 0.38461538461514966,
+          "k": 0.09819296817096558
+        },
+        {
+          "Bubble_number": 260,
+          "bubblePercentage": 81.15384615384616,
+          "uncertainty": 0.3846153846151073,
+          "k": 0.09870316648646923
+        },
+        {
+          "Bubble_number": 260,
+          "bubblePercentage": 80.38461538461539,
+          "uncertainty": 0.3846153846151073,
+          "k": 0.09830473862107357
+        },
+        {
+          "Bubble_number": 260,
+          "bubblePercentage": 82.3076923076923,
+          "uncertainty": 0.3846153846150861,
+          "k": 0.09943038549153026
+        }
+      ],
+      "werte": [
+        0.09819296817096558,
+        0.09870316648646923,
+        0.09830473862107357,
+        0.09943038549153026
+      ],
+      "standardabweichung": 0.000559662822756419,
+      "average": 0.09865781469250967
+    },
+    {
+      "number": 270,
+      "information": [
+        {
+          "Bubble_number": 270,
+          "bubblePercentage": 81.11111111111111,
+          "uncertainty": 0.3703703703702743,
+          "k": 0.09951075578831814
+        },
+        {
+          "Bubble_number": 270,
+          "bubblePercentage": 80.37037037037037,
+          "uncertainty": 0.37037037037029547,
+          "k": 0.09949259196414201
+        },
+        {
+          "Bubble_number": 270,
+          "bubblePercentage": 80.37037037037037,
+          "uncertainty": 0.37037037037023196,
+          "k": 0.09921926791731842
+        },
+        {
+          "Bubble_number": 270,
+          "bubblePercentage": 81.85185185185185,
+          "uncertainty": 0.3703703703702743,
+          "k": 0.10018955160827146
+        }
+      ],
+      "werte": [
+        0.09951075578831814,
+        0.09949259196414201,
+        0.09921926791731842,
+        0.10018955160827146
+      ],
+      "standardabweichung": 0.00041311500514196084,
+      "average": 0.09960304181951252
+    },
+    {
+      "number": 280,
+      "information": [
+        {
+          "Bubble_number": 280,
+          "bubblePercentage": 82.14285714285714,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.10119504040490372
+        },
+        {
+          "Bubble_number": 280,
+          "bubblePercentage": 78.57142857142857,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.09961108179008649
+        },
+        {
+          "Bubble_number": 280,
+          "bubblePercentage": 76.78571428571429,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.09882250420433163
+        },
+        {
+          "Bubble_number": 280,
+          "bubblePercentage": 81.07142857142857,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.10085563636288242
+        }
+      ],
+      "werte": [
+        0.10119504040490372,
+        0.09961108179008649,
+        0.09882250420433163,
+        0.10085563636288242
+      ],
+      "standardabweichung": 0.0011014174612658163,
+      "average": 0.10012106569055107
+    },
+    {
+      "number": 290,
+      "information": [
+        {
+          "Bubble_number": 290,
+          "bubblePercentage": 84.82758620689656,
+          "uncertainty": 2.541098841762901e-13,
+          "k": 0.10383571431190704
+        },
+        {
+          "Bubble_number": 290,
+          "bubblePercentage": 78.96551724137932,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.10074109311076175
+        },
+        {
+          "Bubble_number": 290,
+          "bubblePercentage": 78.27586206896552,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.10066823116593536
+        },
+        {
+          "Bubble_number": 290,
+          "bubblePercentage": 81.72413793103448,
+          "uncertainty": 2.541098841762901e-13,
+          "k": 0.1024328696051005
+        }
+      ],
+      "werte": [
+        0.10383571431190704,
+        0.10074109311076175,
+        0.10066823116593536,
+        0.1024328696051005
+      ],
+      "standardabweichung": 0.0015154473630138562,
+      "average": 0.10191947704842616
+    },
+    {
+      "number": 300,
+      "information": [
+        {
+          "Bubble_number": 300,
+          "bubblePercentage": 77.66666666666666,
+          "uncertainty": 0.3333333333333231,
+          "k": 0.10165824531628634
+        },
+        {
+          "Bubble_number": 300,
+          "bubblePercentage": 81.66666666666667,
+          "uncertainty": 0.33333333333336546,
+          "k": 0.10367328588150419
+        },
+        {
+          "Bubble_number": 300,
+          "bubblePercentage": 77,
+          "uncertainty": 0.3333333333333231,
+          "k": 0.1011167835696297
+        },
+        {
+          "Bubble_number": 300,
+          "bubblePercentage": 78.33333333333333,
+          "uncertainty": 0.33333333333336546,
+          "k": 0.10183696197213075
+        }
+      ],
+      "werte": [
+        0.10165824531628634,
+        0.10367328588150419,
+        0.1011167835696297,
+        0.10183696197213075
+      ],
+      "standardabweichung": 0.0011110038796747163,
+      "average": 0.10207131918488775
+    },
+    {
+      "number": 310,
+      "information": [
+        {
+          "Bubble_number": 310,
+          "bubblePercentage": 82.25806451612904,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.10489914827927224
+        },
+        {
+          "Bubble_number": 310,
+          "bubblePercentage": 76.77419354838709,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.10193910292167666
+        },
+        {
+          "Bubble_number": 310,
+          "bubblePercentage": 75.48387096774194,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.10125261527067439
+        },
+        {
+          "Bubble_number": 310,
+          "bubblePercentage": 81.61290322580645,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.10433239607873675
+        }
+      ],
+      "werte": [
+        0.10489914827927224,
+        0.10193910292167666,
+        0.10125261527067439,
+        0.10433239607873675
+      ],
+      "standardabweichung": 0.001781021402055274,
+      "average": 0.10310581563759001
+    },
+    {
+      "number": 320,
+      "information": [
+        {
+          "Bubble_number": 320,
+          "bubblePercentage": 84.375,
+          "uncertainty": 0.31249999999996525,
+          "k": 0.10707467458392786
+        },
+        {
+          "Bubble_number": 320,
+          "bubblePercentage": 82.5,
+          "uncertainty": 0.3124999999999229,
+          "k": 0.10625640491648247
+        },
+        {
+          "Bubble_number": 320,
+          "bubblePercentage": 78.75,
+          "uncertainty": 0.3125000000000711,
+          "k": 0.1043919835410744
+        },
+        {
+          "Bubble_number": 320,
+          "bubblePercentage": 82.5,
+          "uncertainty": 0.31249999999996525,
+          "k": 0.10656188978527151
+        }
+      ],
+      "werte": [
+        0.10707467458392786,
+        0.10625640491648247,
+        0.1043919835410744,
+        0.10656188978527151
+      ],
+      "standardabweichung": 0.0011693027091869597,
+      "average": 0.10607123820668907
+    },
+    {
+      "number": 330,
+      "information": [
+        {
+          "Bubble_number": 330,
+          "bubblePercentage": 80.3030303030303,
+          "uncertainty": 1.0587911840678754e-13,
+          "k": 0.10606505402211786
+        },
+        {
+          "Bubble_number": 330,
+          "bubblePercentage": 81.51515151515152,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.10684517551572276
+        },
+        {
+          "Bubble_number": 330,
+          "bubblePercentage": 74.54545454545455,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.10285535031229032
+        },
+        {
+          "Bubble_number": 330,
+          "bubblePercentage": 79.39393939393939,
+          "uncertainty": 2.117582368135751e-14,
+          "k": 0.1057483517404953
+        }
+      ],
+      "werte": [
+        0.10606505402211786,
+        0.10684517551572276,
+        0.10285535031229032,
+        0.1057483517404953
+      ],
+      "standardabweichung": 0.001744091754951913,
+      "average": 0.10537848289765656
+    },
+    {
+      "number": 340,
+      "information": [
+        {
+          "Bubble_number": 340,
+          "bubblePercentage": 78.52941176470588,
+          "uncertainty": 0.2941176470586177,
+          "k": 0.10645393608086041
+        },
+        {
+          "Bubble_number": 340,
+          "bubblePercentage": 79.11764705882352,
+          "uncertainty": 0.2941176470585118,
+          "k": 0.10660608074567243
+        },
+        {
+          "Bubble_number": 340,
+          "bubblePercentage": 78.23529411764706,
+          "uncertainty": 0.29411764705855414,
+          "k": 0.10620994066215933
+        },
+        {
+          "Bubble_number": 340,
+          "bubblePercentage": 75.88235294117646,
+          "uncertainty": 0.29411764705857535,
+          "k": 0.10475537196933435
+        }
+      ],
+      "werte": [
+        0.10645393608086041,
+        0.10660608074567243,
+        0.10620994066215933,
+        0.10475537196933435
+      ],
+      "standardabweichung": 0.0008497853565788128,
+      "average": 0.10600633236450663
+    },
+    {
+      "number": 350,
+      "information": [
+        {
+          "Bubble_number": 350,
+          "bubblePercentage": 80.28571428571428,
+          "uncertainty": 2.1175823681357508e-13,
+          "k": 0.10822074531003241
+        },
+        {
+          "Bubble_number": 350,
+          "bubblePercentage": 78.28571428571428,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.10696085251521818
+        },
+        {
+          "Bubble_number": 350,
+          "bubblePercentage": 76.57142857142857,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.10614856353683838
+        },
+        {
+          "Bubble_number": 350,
+          "bubblePercentage": 80,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.10803343561748789
+        }
+      ],
+      "werte": [
+        0.10822074531003241,
+        0.10696085251521818,
+        0.10614856353683838,
+        0.10803343561748789
+      ],
+      "standardabweichung": 0.0009695077244228686,
+      "average": 0.10734089924489422
+    },
+    {
+      "number": 360,
+      "information": [
+        {
+          "Bubble_number": 360,
+          "bubblePercentage": 78.61111111111111,
+          "uncertainty": 3.5998900258307764e-13,
+          "k": 0.10815851937808342
+        },
+        {
+          "Bubble_number": 360,
+          "bubblePercentage": 76.11111111111111,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.1066779782938934
+        },
+        {
+          "Bubble_number": 360,
+          "bubblePercentage": 75.83333333333333,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.10650965282780682
+        },
+        {
+          "Bubble_number": 360,
+          "bubblePercentage": 79.72222222222223,
+          "uncertainty": 4.0234064994579266e-13,
+          "k": 0.10876231293615062
+        }
+      ],
+      "werte": [
+        0.10815851937808342,
+        0.1066779782938934,
+        0.10650965282780682,
+        0.10876231293615062
+      ],
+      "standardabweichung": 0.0011076473337111603,
+      "average": 0.10752711585898357
+    },
+    {
+      "number": 370,
+      "information": [
+        {
+          "Bubble_number": 370,
+          "bubblePercentage": 77.29729729729729,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.10859560467202871
+        },
+        {
+          "Bubble_number": 370,
+          "bubblePercentage": 78.37837837837837,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.10911967069576517
+        },
+        {
+          "Bubble_number": 370,
+          "bubblePercentage": 78.64864864864865,
+          "uncertainty": 2.541098841762901e-13,
+          "k": 0.10928043926400853
+        },
+        {
+          "Bubble_number": 370,
+          "bubblePercentage": 81.62162162162161,
+          "uncertainty": 2.541098841762901e-13,
+          "k": 0.11085614970223377
+        }
+      ],
+      "werte": [
+        0.10859560467202871,
+        0.10911967069576517,
+        0.10928043926400853,
+        0.11085614970223377
+      ],
+      "standardabweichung": 0.000973728945290779,
+      "average": 0.10946296608350906
+    },
+    {
+      "number": 380,
+      "information": [
+        {
+          "Bubble_number": 380,
+          "bubblePercentage": 73.94736842105263,
+          "uncertainty": 0.2631578947367571,
+          "k": 0.10746085152785886
+        },
+        {
+          "Bubble_number": 380,
+          "bubblePercentage": 80.26315789473685,
+          "uncertainty": 0.2631578947367571,
+          "k": 0.111521930449985
+        },
+        {
+          "Bubble_number": 380,
+          "bubblePercentage": 80.78947368421052,
+          "uncertainty": 0.2631578947367571,
+          "k": 0.11175571954573642
+        },
+        {
+          "Bubble_number": 380,
+          "bubblePercentage": 77.36842105263158,
+          "uncertainty": 0.2631578947367571,
+          "k": 0.10988391166707044
+        }
+      ],
+      "werte": [
+        0.10746085152785886,
+        0.111521930449985,
+        0.11175571954573642,
+        0.10988391166707044
+      ],
+      "standardabweichung": 0.0019801283912512222,
+      "average": 0.11015560329766269
+    },
+    {
+      "number": 390,
+      "information": [
+        {
+          "Bubble_number": 390,
+          "bubblePercentage": 79.23076923076923,
+          "uncertainty": 0.25641025641002213,
+          "k": 0.11141267503409738
+        },
+        {
+          "Bubble_number": 390,
+          "bubblePercentage": 80.76923076923077,
+          "uncertainty": 0.2564102564100009,
+          "k": 0.11263565111073678
+        },
+        {
+          "Bubble_number": 390,
+          "bubblePercentage": 77.94871794871796,
+          "uncertainty": 0.2564102564100433,
+          "k": 0.11079900037732561
+        },
+        {
+          "Bubble_number": 390,
+          "bubblePercentage": 82.05128205128204,
+          "uncertainty": 0.25641025641002213,
+          "k": 0.1132624721782425
+        }
+      ],
+      "werte": [
+        0.11141267503409738,
+        0.11263565111073678,
+        0.11079900037732561,
+        0.1132624721782425
+      ],
+      "standardabweichung": 0.0011228275477563013,
+      "average": 0.11202744967510056
+    },
+    {
+      "number": 400,
+      "information": [
+        {
+          "Bubble_number": 400,
+          "bubblePercentage": 76,
+          "uncertainty": 0.2499999999994894,
+          "k": 0.11065816598766572
+        },
+        {
+          "Bubble_number": 400,
+          "bubblePercentage": 77.5,
+          "uncertainty": 0.24999999999951059,
+          "k": 0.11136332941060381
+        },
+        {
+          "Bubble_number": 400,
+          "bubblePercentage": 79.5,
+          "uncertainty": 0.24999999999951059,
+          "k": 0.11280016823069312
+        },
+        {
+          "Bubble_number": 400,
+          "bubblePercentage": 79.5,
+          "uncertainty": 0.24999999999942588,
+          "k": 0.11281309461134205
+        }
+      ],
+      "werte": [
+        0.11065816598766572,
+        0.11136332941060381,
+        0.11280016823069312,
+        0.11281309461134205
+      ],
+      "standardabweichung": 0.001076090085247966,
+      "average": 0.11190868956007617
+    },
+    {
+      "number": 410,
+      "information": [
+        {
+          "Bubble_number": 410,
+          "bubblePercentage": 79.26829268292683,
+          "uncertainty": 4.870439446712227e-13,
+          "k": 0.1136326956043562
+        },
+        {
+          "Bubble_number": 410,
+          "bubblePercentage": 75.60975609756098,
+          "uncertainty": 5.717472393966527e-13,
+          "k": 0.11126077559236974
+        },
+        {
+          "Bubble_number": 410,
+          "bubblePercentage": 75.60975609756098,
+          "uncertainty": 4.870439446712227e-13,
+          "k": 0.11123888548716643
+        },
+        {
+          "Bubble_number": 410,
+          "bubblePercentage": 75.85365853658537,
+          "uncertainty": 5.293955920339377e-13,
+          "k": 0.11107822768192936
+        }
+      ],
+      "werte": [
+        0.1136326956043562,
+        0.11126077559236974,
+        0.11123888548716643,
+        0.11107822768192936
+      ],
+      "standardabweichung": 0.001222744577914276,
+      "average": 0.11180264609145543
+    },
+    {
+      "number": 420,
+      "information": [
+        {
+          "Bubble_number": 420,
+          "bubblePercentage": 75,
+          "uncertainty": 0.23809523809506442,
+          "k": 0.11221821675102932
+        },
+        {
+          "Bubble_number": 420,
+          "bubblePercentage": 78.33333333333333,
+          "uncertainty": 0.23809523809491617,
+          "k": 0.11406623890523199
+        },
+        {
+          "Bubble_number": 420,
+          "bubblePercentage": 77.61904761904762,
+          "uncertainty": 0.23809523809487382,
+          "k": 0.11370963899564902
+        },
+        {
+          "Bubble_number": 420,
+          "bubblePercentage": 82.85714285714286,
+          "uncertainty": 0.23809523809485264,
+          "k": 0.11650168613392081
+        }
+      ],
+      "werte": [
+        0.11221821675102932,
+        0.11406623890523199,
+        0.11370963899564902,
+        0.11650168613392081
+      ],
+      "standardabweichung": 0.0017758033409772964,
+      "average": 0.11412394519645779
+    },
+    {
+      "number": 430,
+      "information": [
+        {
+          "Bubble_number": 430,
+          "bubblePercentage": 78.13953488372093,
+          "uncertainty": 0.23255813953468107,
+          "k": 0.11485919060936864
+        },
+        {
+          "Bubble_number": 430,
+          "bubblePercentage": 74.18604651162791,
+          "uncertainty": 0.23255813953463872,
+          "k": 0.11248519148912435
+        },
+        {
+          "Bubble_number": 430,
+          "bubblePercentage": 76.74418604651163,
+          "uncertainty": 0.2325581395347446,
+          "k": 0.1138021458171368
+        },
+        {
+          "Bubble_number": 430,
+          "bubblePercentage": 76.51162790697674,
+          "uncertainty": 0.23255813953468107,
+          "k": 0.1138792356524564
+        }
+      ],
+      "werte": [
+        0.11485919060936864,
+        0.11248519148912435,
+        0.1138021458171368,
+        0.1138792356524564
+      ],
+      "standardabweichung": 0.0009745596401872342,
+      "average": 0.11375644089202155
+    },
+    {
+      "number": 440,
+      "information": [
+        {
+          "Bubble_number": 440,
+          "bubblePercentage": 77.04545454545455,
+          "uncertainty": 0.22727272727264233,
+          "k": 0.11498075871157354
+        },
+        {
+          "Bubble_number": 440,
+          "bubblePercentage": 77.95454545454545,
+          "uncertainty": 0.22727272727264233,
+          "k": 0.11575329413145273
+        },
+        {
+          "Bubble_number": 440,
+          "bubblePercentage": 78.86363636363637,
+          "uncertainty": 0.22727272727264233,
+          "k": 0.11600772582308456
+        },
+        {
+          "Bubble_number": 440,
+          "bubblePercentage": 79.0909090909091,
+          "uncertainty": 0.22727272727264233,
+          "k": 0.1162356466874872
+        }
+      ],
+      "werte": [
+        0.11498075871157354,
+        0.11575329413145273,
+        0.11600772582308456,
+        0.1162356466874872
+      ],
+      "standardabweichung": 0.0005458604560413151,
+      "average": 0.11574435633839951
+    },
+    {
+      "number": 450,
+      "information": [
+        {
+          "Bubble_number": 450,
+          "bubblePercentage": 75.77777777777777,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.11489861936529888
+        },
+        {
+          "Bubble_number": 450,
+          "bubblePercentage": 75.55555555555556,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.11498180605855111
+        },
+        {
+          "Bubble_number": 450,
+          "bubblePercentage": 76.44444444444444,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.1152915789638103
+        },
+        {
+          "Bubble_number": 450,
+          "bubblePercentage": 75.33333333333333,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.11461867661975214
+        }
+      ],
+      "werte": [
+        0.11489861936529888,
+        0.11498180605855111,
+        0.1152915789638103,
+        0.11461867661975214
+      ],
+      "standardabweichung": 0.00027693636747679127,
+      "average": 0.11494767025185312
+    },
+    {
+      "number": 460,
+      "information": [
+        {
+          "Bubble_number": 460,
+          "bubblePercentage": 79.13043478260869,
+          "uncertainty": 6.564505341220828e-13,
+          "k": 0.11775467202363994
+        },
+        {
+          "Bubble_number": 460,
+          "bubblePercentage": 79.13043478260869,
+          "uncertainty": 6.564505341220828e-13,
+          "k": 0.11776644840100187
+        },
+        {
+          "Bubble_number": 460,
+          "bubblePercentage": 79.78260869565217,
+          "uncertainty": 6.352747104407253e-13,
+          "k": 0.11803690948717357
+        },
+        {
+          "Bubble_number": 460,
+          "bubblePercentage": 78.26086956521739,
+          "uncertainty": 6.352747104407253e-13,
+          "k": 0.11720566628899308
+        }
+      ],
+      "werte": [
+        0.11775467202363994,
+        0.11776644840100187,
+        0.11803690948717357,
+        0.11720566628899308
+      ],
+      "standardabweichung": 0.00034878300278305376,
+      "average": 0.11769092405020212
+    },
+    {
+      "number": 470,
+      "information": [
+        {
+          "Bubble_number": 470,
+          "bubblePercentage": 78.51063829787233,
+          "uncertainty": 4.658681209898652e-13,
+          "k": 0.11833872421064849
+        },
+        {
+          "Bubble_number": 470,
+          "bubblePercentage": 76.59574468085107,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.11718734719049764
+        },
+        {
+          "Bubble_number": 470,
+          "bubblePercentage": 77.87234042553192,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.11795390130690835
+        },
+        {
+          "Bubble_number": 470,
+          "bubblePercentage": 77.23404255319149,
+          "uncertainty": 4.870439446712227e-13,
+          "k": 0.11742455735573899
+        }
+      ],
+      "werte": [
+        0.11833872421064849,
+        0.11718734719049764,
+        0.11795390130690835,
+        0.11742455735573899
+      ],
+      "standardabweichung": 0.0005190967831170128,
+      "average": 0.11772613251594836
+    },
+    {
+      "number": 480,
+      "information": [
+        {
+          "Bubble_number": 480,
+          "bubblePercentage": 74.58333333333333,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.11649835890979808
+        },
+        {
+          "Bubble_number": 480,
+          "bubblePercentage": 78.125,
+          "uncertainty": 3.1763735522036263e-13,
+          "k": 0.11898939976538662
+        },
+        {
+          "Bubble_number": 480,
+          "bubblePercentage": 78.75,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.11921990144334559
+        },
+        {
+          "Bubble_number": 480,
+          "bubblePercentage": 75.20833333333333,
+          "uncertainty": 2.541098841762901e-13,
+          "k": 0.11674750158408129
+        }
+      ],
+      "werte": [
+        0.11649835890979808,
+        0.11898939976538662,
+        0.11921990144334559,
+        0.11674750158408129
+      ],
+      "standardabweichung": 0.001439506568273792,
+      "average": 0.1178637904256529
+    },
+    {
+      "number": 490,
+      "information": [
+        {
+          "Bubble_number": 490,
+          "bubblePercentage": 74.48979591836735,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.11755856470067022
+        },
+        {
+          "Bubble_number": 490,
+          "bubblePercentage": 79.79591836734694,
+          "uncertainty": 3.3881317890172014e-13,
+          "k": 0.12075915350310089
+        },
+        {
+          "Bubble_number": 490,
+          "bubblePercentage": 77.55102040816327,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.11935427651787595
+        },
+        {
+          "Bubble_number": 490,
+          "bubblePercentage": 75.10204081632654,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.11813300642049177
+        }
+      ],
+      "werte": [
+        0.11755856470067022,
+        0.12075915350310089,
+        0.11935427651787595,
+        0.11813300642049177
+      ],
+      "standardabweichung": 0.0014189245163163864,
+      "average": 0.11895125028553472
+    },
+    {
+      "number": 500,
+      "information": [
+        {
+          "Bubble_number": 500,
+          "bubblePercentage": 78.4,
+          "uncertainty": 3.5998900258307764e-13,
+          "k": 0.12051128115871293
+        },
+        {
+          "Bubble_number": 500,
+          "bubblePercentage": 79.4,
+          "uncertainty": 3.8116482626443515e-13,
+          "k": 0.12088145824360708
+        },
+        {
+          "Bubble_number": 500,
+          "bubblePercentage": 76.8,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.11975679354486561
+        },
+        {
+          "Bubble_number": 500,
+          "bubblePercentage": 76.6,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.11946061437520866
+        }
+      ],
+      "werte": [
+        0.12051128115871293,
+        0.12088145824360708,
+        0.11975679354486561,
+        0.11946061437520866
+      ],
+      "standardabweichung": 0.0006571132200192134,
+      "average": 0.12015253683059857
+    },
+    {
+      "number": 510,
+      "information": [
+        {
+          "Bubble_number": 510,
+          "bubblePercentage": 75.29411764705883,
+          "uncertainty": 4.446922973085077e-13,
+          "k": 0.11937955954484879
+        },
+        {
+          "Bubble_number": 510,
+          "bubblePercentage": 77.84313725490196,
+          "uncertainty": 5.082197683525802e-13,
+          "k": 0.12111085010172244
+        },
+        {
+          "Bubble_number": 510,
+          "bubblePercentage": 78.23529411764706,
+          "uncertainty": 4.446922973085077e-13,
+          "k": 0.12159098203113033
+        },
+        {
+          "Bubble_number": 510,
+          "bubblePercentage": 78.62745098039215,
+          "uncertainty": 4.446922973085077e-13,
+          "k": 0.12135535389334394
+        }
+      ],
+      "werte": [
+        0.11937955954484879,
+        0.12111085010172244,
+        0.12159098203113033,
+        0.12135535389334394
+      ],
+      "standardabweichung": 0.0010057065967835688,
+      "average": 0.12085918639276139
+    },
+    {
+      "number": 520,
+      "information": [
+        {
+          "Bubble_number": 520,
+          "bubblePercentage": 79.03846153846153,
+          "uncertainty": 0.1923076923074054,
+          "k": 0.1225534099935481
+        },
+        {
+          "Bubble_number": 520,
+          "bubblePercentage": 77.11538461538461,
+          "uncertainty": 0.1923076923074054,
+          "k": 0.12167317144687877
+        },
+        {
+          "Bubble_number": 520,
+          "bubblePercentage": 76.34615384615384,
+          "uncertainty": 0.19230769230736305,
+          "k": 0.1210449860755309
+        },
+        {
+          "Bubble_number": 520,
+          "bubblePercentage": 75,
+          "uncertainty": 0.19230769230738423,
+          "k": 0.12013013797393278
+        }
+      ],
+      "werte": [
+        0.1225534099935481,
+        0.12167317144687877,
+        0.1210449860755309,
+        0.12013013797393278
+      ],
+      "standardabweichung": 0.0010220455838229686,
+      "average": 0.12135042637247263
+    },
+    {
+      "number": 530,
+      "information": [
+        {
+          "Bubble_number": 530,
+          "bubblePercentage": 78.67924528301887,
+          "uncertainty": 0.1886792452828137,
+          "k": 0.12319406934842964
+        },
+        {
+          "Bubble_number": 530,
+          "bubblePercentage": 78.8679245283019,
+          "uncertainty": 0.18867924528291957,
+          "k": 0.12354554698173208
+        },
+        {
+          "Bubble_number": 530,
+          "bubblePercentage": 75.84905660377359,
+          "uncertainty": 0.1886792452829831,
+          "k": 0.12172406741958118
+        },
+        {
+          "Bubble_number": 530,
+          "bubblePercentage": 76.9811320754717,
+          "uncertainty": 0.18867924528287722,
+          "k": 0.12229148690363893
+        }
+      ],
+      "werte": [
+        0.12319406934842964,
+        0.12354554698173208,
+        0.12172406741958118,
+        0.12229148690363893
+      ],
+      "standardabweichung": 0.0008322417824197883,
+      "average": 0.12268879266334547
+    },
+    {
+      "number": 540,
+      "information": [
+        {
+          "Bubble_number": 540,
+          "bubblePercentage": 74.81481481481481,
+          "uncertainty": 4.658681209898652e-13,
+          "k": 0.12157411151267289
+        },
+        {
+          "Bubble_number": 540,
+          "bubblePercentage": 77.03703703703704,
+          "uncertainty": 4.870439446712227e-13,
+          "k": 0.12278383099074816
+        },
+        {
+          "Bubble_number": 540,
+          "bubblePercentage": 77.5925925925926,
+          "uncertainty": 4.446922973085077e-13,
+          "k": 0.12312757836686371
+        },
+        {
+          "Bubble_number": 540,
+          "bubblePercentage": 76.85185185185185,
+          "uncertainty": 5.082197683525802e-13,
+          "k": 0.12277498555646452
+        }
+      ],
+      "werte": [
+        0.12157411151267289,
+        0.12278383099074816,
+        0.12312757836686371,
+        0.12277498555646452
+      ],
+      "standardabweichung": 0.0006807680186130387,
+      "average": 0.12256512660668731
+    },
+    {
+      "number": 550,
+      "information": [
+        {
+          "Bubble_number": 550,
+          "bubblePercentage": 75.09090909090908,
+          "uncertainty": 2.1175823681357508e-13,
+          "k": 0.12260919425401465
+        },
+        {
+          "Bubble_number": 550,
+          "bubblePercentage": 74.72727272727273,
+          "uncertainty": 2.1175823681357508e-13,
+          "k": 0.1224040191493532
+        },
+        {
+          "Bubble_number": 550,
+          "bubblePercentage": 77.27272727272727,
+          "uncertainty": 3.1763735522036263e-13,
+          "k": 0.12380024450892167
+        },
+        {
+          "Bubble_number": 550,
+          "bubblePercentage": 79.27272727272727,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.1252844125898408
+        }
+      ],
+      "werte": [
+        0.12260919425401465,
+        0.1224040191493532,
+        0.12380024450892167,
+        0.1252844125898408
+      ],
+      "standardabweichung": 0.0013249640623035981,
+      "average": 0.12352446762553258
+    },
+    {
+      "number": 560,
+      "information": [
+        {
+          "Bubble_number": 560,
+          "bubblePercentage": 75.89285714285714,
+          "uncertainty": 0.17857142857135125,
+          "k": 0.12373731749440739
+        },
+        {
+          "Bubble_number": 560,
+          "bubblePercentage": 76.42857142857142,
+          "uncertainty": 0.17857142857135125,
+          "k": 0.12434185251638338
+        },
+        {
+          "Bubble_number": 560,
+          "bubblePercentage": 77.14285714285715,
+          "uncertainty": 0.17857142857137243,
+          "k": 0.12449552933821371
+        },
+        {
+          "Bubble_number": 560,
+          "bubblePercentage": 73.39285714285714,
+          "uncertainty": 0.1785714285713936,
+          "k": 0.12216115355326897
+        }
+      ],
+      "werte": [
+        0.12373731749440739,
+        0.12434185251638338,
+        0.12449552933821371,
+        0.12216115355326897
+      ],
+      "standardabweichung": 0.0010666542473571773,
+      "average": 0.12368396322556836
+    },
+    {
+      "number": 570,
+      "information": [
+        {
+          "Bubble_number": 570,
+          "bubblePercentage": 75.08771929824562,
+          "uncertainty": 0.17543859649095966,
+          "k": 0.12417643728218526
+        },
+        {
+          "Bubble_number": 570,
+          "bubblePercentage": 74.21052631578947,
+          "uncertainty": 0.17543859649098084,
+          "k": 0.1232250502322387
+        },
+        {
+          "Bubble_number": 570,
+          "bubblePercentage": 78.0701754385965,
+          "uncertainty": 0.1754385964910232,
+          "k": 0.12602774453424098
+        },
+        {
+          "Bubble_number": 570,
+          "bubblePercentage": 74.3859649122807,
+          "uncertainty": 0.1754385964909385,
+          "k": 0.12357195795619892
+        }
+      ],
+      "werte": [
+        0.12417643728218526,
+        0.1232250502322387,
+        0.12602774453424098,
+        0.12357195795619892
+      ],
+      "standardabweichung": 0.0012484723716131329,
+      "average": 0.12425029750121597
+    },
+    {
+      "number": 580,
+      "information": [
+        {
+          "Bubble_number": 580,
+          "bubblePercentage": 76.37931034482759,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.12534416039870483
+        },
+        {
+          "Bubble_number": 580,
+          "bubblePercentage": 71.55172413793103,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.12229999315573001
+        },
+        {
+          "Bubble_number": 580,
+          "bubblePercentage": 76.72413793103449,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.12556678606103144
+        },
+        {
+          "Bubble_number": 580,
+          "bubblePercentage": 75.51724137931033,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.12493122593745512
+        }
+      ],
+      "werte": [
+        0.12534416039870483,
+        0.12229999315573001,
+        0.12556678606103144,
+        0.12493122593745512
+      ],
+      "standardabweichung": 0.001513447768244412,
+      "average": 0.12453554138823034
+    },
+    {
+      "number": 590,
+      "information": [
+        {
+          "Bubble_number": 590,
+          "bubblePercentage": 76.27118644067797,
+          "uncertainty": 0.16949152542375734,
+          "k": 0.1264784895525842
+        },
+        {
+          "Bubble_number": 590,
+          "bubblePercentage": 74.0677966101695,
+          "uncertainty": 0.16949152542377852,
+          "k": 0.1249993846609463
+        },
+        {
+          "Bubble_number": 590,
+          "bubblePercentage": 76.77966101694915,
+          "uncertainty": 0.16949152542371498,
+          "k": 0.126597088230198
+        },
+        {
+          "Bubble_number": 590,
+          "bubblePercentage": 77.96610169491525,
+          "uncertainty": 0.16949152542367266,
+          "k": 0.12711919649653525
+        }
+      ],
+      "werte": [
+        0.1264784895525842,
+        0.1249993846609463,
+        0.126597088230198,
+        0.12711919649653525
+      ],
+      "standardabweichung": 0.0009097242379839731,
+      "average": 0.12629853973506594
+    },
+    {
+      "number": 600,
+      "information": [
+        {
+          "Bubble_number": 600,
+          "bubblePercentage": 73.5,
+          "uncertainty": 0.16666666666605803,
+          "k": 0.12502258986993747
+        },
+        {
+          "Bubble_number": 600,
+          "bubblePercentage": 78,
+          "uncertainty": 0.166666666665931,
+          "k": 0.12822691706923872
+        },
+        {
+          "Bubble_number": 600,
+          "bubblePercentage": 75.5,
+          "uncertainty": 0.16666666666601568,
+          "k": 0.12628212120750343
+        },
+        {
+          "Bubble_number": 600,
+          "bubblePercentage": 75.16666666666667,
+          "uncertainty": 0.1666666666659945,
+          "k": 0.1259841293768876
+        }
+      ],
+      "werte": [
+        0.12502258986993747,
+        0.12822691706923872,
+        0.12628212120750343,
+        0.1259841293768876
+      ],
+      "standardabweichung": 0.001344117334964242,
+      "average": 0.1263789393808918
+    },
+    {
+      "number": 610,
+      "information": [
+        {
+          "Bubble_number": 610,
+          "bubblePercentage": 72.78688524590164,
+          "uncertainty": 4.0234064994579266e-13,
+          "k": 0.12459311475193798
+        },
+        {
+          "Bubble_number": 610,
+          "bubblePercentage": 76.0655737704918,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.12755737411914728
+        },
+        {
+          "Bubble_number": 610,
+          "bubblePercentage": 77.21311475409836,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.12814201477329498
+        },
+        {
+          "Bubble_number": 610,
+          "bubblePercentage": 76.55737704918033,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.12760485656172524
+        }
+      ],
+      "werte": [
+        0.12459311475193798,
+        0.12755737411914728,
+        0.12814201477329498,
+        0.12760485656172524
+      ],
+      "standardabweichung": 0.0016094696825245665,
+      "average": 0.12697434005152639
+    },
+    {
+      "number": 620,
+      "information": [
+        {
+          "Bubble_number": 620,
+          "bubblePercentage": 74.83870967741936,
+          "uncertainty": 0.16129032258029116,
+          "k": 0.12740880364086668
+        },
+        {
+          "Bubble_number": 620,
+          "bubblePercentage": 73.22580645161291,
+          "uncertainty": 0.16129032258026998,
+          "k": 0.1262653125574935
+        },
+        {
+          "Bubble_number": 620,
+          "bubblePercentage": 76.77419354838709,
+          "uncertainty": 0.16129032258014292,
+          "k": 0.1287064410565701
+        },
+        {
+          "Bubble_number": 620,
+          "bubblePercentage": 75.48387096774194,
+          "uncertainty": 0.1612903225802488,
+          "k": 0.1275015607064901
+        }
+      ],
+      "werte": [
+        0.12740880364086668,
+        0.1262653125574935,
+        0.1287064410565701,
+        0.1275015607064901
+      ],
+      "standardabweichung": 0.0009974631608285459,
+      "average": 0.1274705294903551
+    },
+    {
+      "number": 630,
+      "information": [
+        {
+          "Bubble_number": 630,
+          "bubblePercentage": 72.85714285714285,
+          "uncertainty": 3.5998900258307764e-13,
+          "k": 0.1262012330308305
+        },
+        {
+          "Bubble_number": 630,
+          "bubblePercentage": 75.39682539682539,
+          "uncertainty": 3.8116482626443515e-13,
+          "k": 0.12802111928188642
+        },
+        {
+          "Bubble_number": 630,
+          "bubblePercentage": 75.23809523809524,
+          "uncertainty": 3.8116482626443515e-13,
+          "k": 0.1284080391071937
+        },
+        {
+          "Bubble_number": 630,
+          "bubblePercentage": 74.44444444444444,
+          "uncertainty": 4.0234064994579266e-13,
+          "k": 0.1277837831195901
+        }
+      ],
+      "werte": [
+        0.1262012330308305,
+        0.12802111928188642,
+        0.1284080391071937,
+        0.1277837831195901
+      ],
+      "standardabweichung": 0.0009696294288755038,
+      "average": 0.1276035436348752
+    },
+    {
+      "number": 640,
+      "information": [
+        {
+          "Bubble_number": 640,
+          "bubblePercentage": 73.28125,
+          "uncertainty": 4.0234064994579266e-13,
+          "k": 0.1273758724456522
+        },
+        {
+          "Bubble_number": 640,
+          "bubblePercentage": 73.125,
+          "uncertainty": 4.2351647362715017e-13,
+          "k": 0.1274856109930854
+        },
+        {
+          "Bubble_number": 640,
+          "bubblePercentage": 74.21875,
+          "uncertainty": 4.446922973085077e-13,
+          "k": 0.12813609173305543
+        },
+        {
+          "Bubble_number": 640,
+          "bubblePercentage": 74.21875,
+          "uncertainty": 4.0234064994579266e-13,
+          "k": 0.12831586723794086
+        }
+      ],
+      "werte": [
+        0.1273758724456522,
+        0.1274856109930854,
+        0.12813609173305543,
+        0.12831586723794086
+      ],
+      "standardabweichung": 0.000467113118046428,
+      "average": 0.12782836060243347
+    },
+    {
+      "number": 650,
+      "information": [
+        {
+          "Bubble_number": 650,
+          "bubblePercentage": 75.23076923076924,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.12936665025681657
+        },
+        {
+          "Bubble_number": 650,
+          "bubblePercentage": 76.15384615384615,
+          "uncertainty": 2.1175823681357508e-13,
+          "k": 0.13047607592626534
+        },
+        {
+          "Bubble_number": 650,
+          "bubblePercentage": 76.76923076923077,
+          "uncertainty": 4.0234064994579266e-13,
+          "k": 0.13042802679290008
+        },
+        {
+          "Bubble_number": 650,
+          "bubblePercentage": 75.84615384615384,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.12983089785413865
+        }
+      ],
+      "werte": [
+        0.12936665025681657,
+        0.13047607592626534,
+        0.13042802679290008,
+        0.12983089785413865
+      ],
+      "standardabweichung": 0.0005282043269793453,
+      "average": 0.13002541270753015
+    },
+    {
+      "number": 660,
+      "information": [
+        {
+          "Bubble_number": 660,
+          "bubblePercentage": 75.45454545454545,
+          "uncertainty": 0.1515151515147984,
+          "k": 0.13039395894586506
+        },
+        {
+          "Bubble_number": 660,
+          "bubblePercentage": 75.15151515151514,
+          "uncertainty": 0.15151515151492548,
+          "k": 0.1297372523787454
+        },
+        {
+          "Bubble_number": 660,
+          "bubblePercentage": 73.33333333333333,
+          "uncertainty": 0.15151515151486195,
+          "k": 0.12892594738676388
+        },
+        {
+          "Bubble_number": 660,
+          "bubblePercentage": 77.42424242424242,
+          "uncertainty": 0.15151515151488312,
+          "k": 0.13160859524091859
+        }
+      ],
+      "werte": [
+        0.13039395894586506,
+        0.1297372523787454,
+        0.12892594738676388,
+        0.13160859524091859
+      ],
+      "standardabweichung": 0.001133519673018353,
+      "average": 0.13016643848807324
+    },
+    {
+      "number": 670,
+      "information": [
+        {
+          "Bubble_number": 670,
+          "bubblePercentage": 73.5820895522388,
+          "uncertainty": 0.1492537313430606,
+          "k": 0.1294702325881488
+        },
+        {
+          "Bubble_number": 670,
+          "bubblePercentage": 75.07462686567165,
+          "uncertainty": 0.1492537313430606,
+          "k": 0.13076062459332338
+        },
+        {
+          "Bubble_number": 670,
+          "bubblePercentage": 75.22388059701493,
+          "uncertainty": 0.14925373134301825,
+          "k": 0.13088515468523237
+        },
+        {
+          "Bubble_number": 670,
+          "bubblePercentage": 73.5820895522388,
+          "uncertainty": 0.14925373134299708,
+          "k": 0.12987583356080665
+        }
+      ],
+      "werte": [
+        0.1294702325881488,
+        0.13076062459332338,
+        0.13088515468523237,
+        0.12987583356080665
+      ],
+      "standardabweichung": 0.0006860952475227577,
+      "average": 0.1302479613568778
+    },
+    {
+      "number": 680,
+      "information": [
+        {
+          "Bubble_number": 680,
+          "bubblePercentage": 73.23529411764706,
+          "uncertainty": 2.117582368135751e-14,
+          "k": 0.1298640611908762
+        },
+        {
+          "Bubble_number": 680,
+          "bubblePercentage": 77.5,
+          "uncertainty": 2.117582368135751e-14,
+          "k": 0.13304125291853486
+        },
+        {
+          "Bubble_number": 680,
+          "bubblePercentage": 73.23529411764706,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.12998928966618925
+        },
+        {
+          "Bubble_number": 680,
+          "bubblePercentage": 76.61764705882354,
+          "uncertainty": 6.352747104407253e-14,
+          "k": 0.1324932878326143
+        }
+      ],
+      "werte": [
+        0.1298640611908762,
+        0.13304125291853486,
+        0.12998928966618925,
+        0.1324932878326143
+      ],
+      "standardabweichung": 0.0016559945255916224,
+      "average": 0.13134697290205366
+    },
+    {
+      "number": 690,
+      "information": [
+        {
+          "Bubble_number": 690,
+          "bubblePercentage": 73.91304347826086,
+          "uncertainty": 6.776263578034403e-13,
+          "k": 0.13111918246877352
+        },
+        {
+          "Bubble_number": 690,
+          "bubblePercentage": 74.34782608695653,
+          "uncertainty": 8.046812998915853e-13,
+          "k": 0.13109787691663077
+        },
+        {
+          "Bubble_number": 690,
+          "bubblePercentage": 74.92753623188406,
+          "uncertainty": 8.258571235729428e-13,
+          "k": 0.13168211432442758
+        },
+        {
+          "Bubble_number": 690,
+          "bubblePercentage": 73.18840579710145,
+          "uncertainty": 7.623296525288703e-13,
+          "k": 0.13072320423922573
+        }
+      ],
+      "werte": [
+        0.13111918246877352,
+        0.13109787691663077,
+        0.13168211432442758,
+        0.13072320423922573
+      ],
+      "standardabweichung": 0.000395323335417021,
+      "average": 0.13115559448726438
+    },
+    {
+      "number": 700,
+      "information": [
+        {
+          "Bubble_number": 700,
+          "bubblePercentage": 73.42857142857143,
+          "uncertainty": 5.717472393966527e-13,
+          "k": 0.13140379079896633
+        },
+        {
+          "Bubble_number": 700,
+          "bubblePercentage": 72.14285714285714,
+          "uncertainty": 5.717472393966527e-13,
+          "k": 0.13040453758678464
+        },
+        {
+          "Bubble_number": 700,
+          "bubblePercentage": 75.28571428571429,
+          "uncertainty": 6.564505341220828e-13,
+          "k": 0.1326193525908193
+        },
+        {
+          "Bubble_number": 700,
+          "bubblePercentage": 75,
+          "uncertainty": 6.352747104407253e-13,
+          "k": 0.132699642417053
+        }
+      ],
+      "werte": [
+        0.13140379079896633,
+        0.13040453758678464,
+        0.1326193525908193,
+        0.132699642417053
+      ],
+      "standardabweichung": 0.0010929580278682966,
+      "average": 0.13178183084840583
+    },
+    {
+      "number": 710,
+      "information": [
+        {
+          "Bubble_number": 710,
+          "bubblePercentage": 71.12676056338029,
+          "uncertainty": 5.505714157152952e-13,
+          "k": 0.13030969609369628
+        },
+        {
+          "Bubble_number": 710,
+          "bubblePercentage": 77.1830985915493,
+          "uncertainty": 5.505714157152952e-13,
+          "k": 0.13477493651248185
+        },
+        {
+          "Bubble_number": 710,
+          "bubblePercentage": 74.78873239436619,
+          "uncertainty": 5.293955920339377e-13,
+          "k": 0.13309527986412326
+        },
+        {
+          "Bubble_number": 710,
+          "bubblePercentage": 73.94366197183099,
+          "uncertainty": 5.717472393966527e-13,
+          "k": 0.13231205828062376
+        }
+      ],
+      "werte": [
+        0.13030969609369628,
+        0.13477493651248185,
+        0.13309527986412326,
+        0.13231205828062376
+      ],
+      "standardabweichung": 0.0018530999918482238,
+      "average": 0.13262299268773128
+    },
+    {
+      "number": 720,
+      "information": [
+        {
+          "Bubble_number": 720,
+          "bubblePercentage": 72.91666666666666,
+          "uncertainty": 5.505714157152952e-13,
+          "k": 0.13202463609209597
+        },
+        {
+          "Bubble_number": 720,
+          "bubblePercentage": 75.55555555555556,
+          "uncertainty": 5.717472393966527e-13,
+          "k": 0.13425624980517045
+        },
+        {
+          "Bubble_number": 720,
+          "bubblePercentage": 72.91666666666666,
+          "uncertainty": 5.082197683525802e-13,
+          "k": 0.13232422702639812
+        },
+        {
+          "Bubble_number": 720,
+          "bubblePercentage": 76.11111111111111,
+          "uncertainty": 5.929230630780102e-13,
+          "k": 0.13471069629743856
+        }
+      ],
+      "werte": [
+        0.13202463609209597,
+        0.13425624980517045,
+        0.13232422702639812,
+        0.13471069629743856
+      ],
+      "standardabweichung": 0.0013515189952011237,
+      "average": 0.13332895230527578
+    },
+    {
+      "number": 730,
+      "information": [
+        {
+          "Bubble_number": 730,
+          "bubblePercentage": 70.54794520547945,
+          "uncertainty": 0.1369863013695197,
+          "k": 0.13125572777976324
+        },
+        {
+          "Bubble_number": 730,
+          "bubblePercentage": 72.87671232876713,
+          "uncertainty": 0.1369863013693503,
+          "k": 0.13324710451507785
+        },
+        {
+          "Bubble_number": 730,
+          "bubblePercentage": 75.47945205479452,
+          "uncertainty": 0.13698630136928677,
+          "k": 0.1348070306125594
+        },
+        {
+          "Bubble_number": 730,
+          "bubblePercentage": 74.93150684931507,
+          "uncertainty": 0.13698630136930795,
+          "k": 0.1348391496435236
+        }
+      ],
+      "werte": [
+        0.13125572777976324,
+        0.13324710451507785,
+        0.1348070306125594,
+        0.1348391496435236
+      ],
+      "standardabweichung": 0.00169280964963124,
+      "average": 0.13353725313773102
+    },
+    {
+      "number": 740,
+      "information": [
+        {
+          "Bubble_number": 740,
+          "bubblePercentage": 74.32432432432432,
+          "uncertainty": 0.1351351351345163,
+          "k": 0.13473486479151883
+        },
+        {
+          "Bubble_number": 740,
+          "bubblePercentage": 70.13513513513514,
+          "uncertainty": 0.13513513513455866,
+          "k": 0.13160753065221883
+        },
+        {
+          "Bubble_number": 740,
+          "bubblePercentage": 73.1081081081081,
+          "uncertainty": 0.1351351351345163,
+          "k": 0.13372640883202666
+        },
+        {
+          "Bubble_number": 740,
+          "bubblePercentage": 72.83783783783784,
+          "uncertainty": 0.13513513513453748,
+          "k": 0.13354847207711423
+        }
+      ],
+      "werte": [
+        0.13473486479151883,
+        0.13160753065221883,
+        0.13372640883202666,
+        0.13354847207711423
+      ],
+      "standardabweichung": 0.001306818329581058,
+      "average": 0.13340431908821965
+    },
+    {
+      "number": 750,
+      "information": [
+        {
+          "Bubble_number": 750,
+          "bubblePercentage": 73.6,
+          "uncertainty": 0.13333333333299044,
+          "k": 0.1346913303180271
+        },
+        {
+          "Bubble_number": 750,
+          "bubblePercentage": 74,
+          "uncertainty": 0.13333333333294808,
+          "k": 0.1348236916235647
+        },
+        {
+          "Bubble_number": 750,
+          "bubblePercentage": 72.26666666666667,
+          "uncertainty": 0.13333333333305394,
+          "k": 0.13383054776757525
+        },
+        {
+          "Bubble_number": 750,
+          "bubblePercentage": 73.6,
+          "uncertainty": 0.1333333333330116,
+          "k": 0.134810535307417
+        }
+      ],
+      "werte": [
+        0.1346913303180271,
+        0.1348236916235647,
+        0.13383054776757525,
+        0.134810535307417
+      ],
+      "standardabweichung": 0.00047605666062023694,
+      "average": 0.13453902625414602
+    },
+    {
+      "number": 760,
+      "information": [
+        {
+          "Bubble_number": 760,
+          "bubblePercentage": 75.92105263157895,
+          "uncertainty": 0.1315789473683362,
+          "k": 0.1370134720885539
+        },
+        {
+          "Bubble_number": 760,
+          "bubblePercentage": 71.84210526315789,
+          "uncertainty": 0.1315789473683362,
+          "k": 0.1337690815140055
+        },
+        {
+          "Bubble_number": 760,
+          "bubblePercentage": 74.47368421052632,
+          "uncertainty": 0.1315789473683362,
+          "k": 0.13587783219100202
+        },
+        {
+          "Bubble_number": 760,
+          "bubblePercentage": 74.60526315789474,
+          "uncertainty": 0.1315789473683362,
+          "k": 0.13592866850521984
+        }
+      ],
+      "werte": [
+        0.1370134720885539,
+        0.1337690815140055,
+        0.13587783219100202,
+        0.13592866850521984
+      ],
+      "standardabweichung": 0.001357257550870615,
+      "average": 0.1356472635746953
+    },
+    {
+      "number": 770,
+      "information": [
+        {
+          "Bubble_number": 770,
+          "bubblePercentage": 72.46753246753246,
+          "uncertainty": 2.964615315390051e-13,
+          "k": 0.13510988764531215
+        },
+        {
+          "Bubble_number": 770,
+          "bubblePercentage": 73.37662337662337,
+          "uncertainty": 3.5998900258307764e-13,
+          "k": 0.1356986036389969
+        },
+        {
+          "Bubble_number": 770,
+          "bubblePercentage": 73.50649350649351,
+          "uncertainty": 4.658681209898652e-13,
+          "k": 0.1357461306345984
+        },
+        {
+          "Bubble_number": 770,
+          "bubblePercentage": 72.33766233766234,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.1344639421581027
+        }
+      ],
+      "werte": [
+        0.13510988764531215,
+        0.1356986036389969,
+        0.1357461306345984,
+        0.1344639421581027
+      ],
+      "standardabweichung": 0.000601338251461932,
+      "average": 0.13525464101925255
+    },
+    {
+      "number": 780,
+      "information": [
+        {
+          "Bubble_number": 780,
+          "bubblePercentage": 73.46153846153847,
+          "uncertainty": 0.12820512820474636,
+          "k": 0.1365058946125843
+        },
+        {
+          "Bubble_number": 780,
+          "bubblePercentage": 72.17948717948718,
+          "uncertainty": 0.12820512820472518,
+          "k": 0.13567784046089368
+        },
+        {
+          "Bubble_number": 780,
+          "bubblePercentage": 74.87179487179488,
+          "uncertainty": 0.12820512820472518,
+          "k": 0.13760688656682254
+        },
+        {
+          "Bubble_number": 780,
+          "bubblePercentage": 75.12820512820512,
+          "uncertainty": 0.12820512820474636,
+          "k": 0.1378713013382725
+        }
+      ],
+      "werte": [
+        0.1365058946125843,
+        0.13567784046089368,
+        0.13760688656682254,
+        0.1378713013382725
+      ],
+      "standardabweichung": 0.0010150778770918543,
+      "average": 0.13691548074464327
+    },
+    {
+      "number": 790,
+      "information": [
+        {
+          "Bubble_number": 790,
+          "bubblePercentage": 72.15189873417721,
+          "uncertainty": 0.1265822784802703,
+          "k": 0.13570697432138484
+        },
+        {
+          "Bubble_number": 790,
+          "bubblePercentage": 72.9113924050633,
+          "uncertainty": 0.1265822784802703,
+          "k": 0.1368489054184897
+        },
+        {
+          "Bubble_number": 790,
+          "bubblePercentage": 73.54430379746836,
+          "uncertainty": 0.12658227848033382,
+          "k": 0.1366500945556582
+        },
+        {
+          "Bubble_number": 790,
+          "bubblePercentage": 72.78481012658227,
+          "uncertainty": 0.1265822784802703,
+          "k": 0.13661526821353376
+        }
+      ],
+      "werte": [
+        0.13570697432138484,
+        0.1368489054184897,
+        0.1366500945556582,
+        0.13661526821353376
+      ],
+      "standardabweichung": 0.0005093954896223564,
+      "average": 0.13645531062726662
+    },
+    {
+      "number": 800,
+      "information": [
+        {
+          "Bubble_number": 800,
+          "bubblePercentage": 73.5,
+          "uncertainty": 0.12499999999925765,
+          "k": 0.1377254381231543
+        },
+        {
+          "Bubble_number": 800,
+          "bubblePercentage": 71.875,
+          "uncertainty": 0.12499999999927883,
+          "k": 0.1365566182233633
+        },
+        {
+          "Bubble_number": 800,
+          "bubblePercentage": 76,
+          "uncertainty": 0.12499999999923649,
+          "k": 0.13934954153606283
+        },
+        {
+          "Bubble_number": 800,
+          "bubblePercentage": 72.125,
+          "uncertainty": 0.12499999999925765,
+          "k": 0.13655794520986994
+        }
+      ],
+      "werte": [
+        0.1377254381231543,
+        0.1365566182233633,
+        0.13934954153606283,
+        0.13655794520986994
+      ],
+      "standardabweichung": 0.0013216253880627804,
+      "average": 0.1375473857731126
+    },
+    {
+      "number": 810,
+      "information": [
+        {
+          "Bubble_number": 810,
+          "bubblePercentage": 74.32098765432099,
+          "uncertainty": 3.1763735522036263e-13,
+          "k": 0.13873656476856938
+        },
+        {
+          "Bubble_number": 810,
+          "bubblePercentage": 74.32098765432099,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.1386739060255853
+        },
+        {
+          "Bubble_number": 810,
+          "bubblePercentage": 72.5925925925926,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.13704088116398266
+        },
+        {
+          "Bubble_number": 810,
+          "bubblePercentage": 71.35802469135803,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.13630211132914327
+        }
+      ],
+      "werte": [
+        0.13873656476856938,
+        0.1386739060255853,
+        0.13704088116398266,
+        0.13630211132914327
+      ],
+      "standardabweichung": 0.001212565933025967,
+      "average": 0.13768836582182015
+    },
+    {
+      "number": 820,
+      "information": [
+        {
+          "Bubble_number": 820,
+          "bubblePercentage": 73.17073170731707,
+          "uncertainty": 0.12195121951209582,
+          "k": 0.13861904631335578
+        },
+        {
+          "Bubble_number": 820,
+          "bubblePercentage": 73.17073170731707,
+          "uncertainty": 0.1219512195120323,
+          "k": 0.13816421316899624
+        },
+        {
+          "Bubble_number": 820,
+          "bubblePercentage": 74.14634146341463,
+          "uncertainty": 0.12195121951190524,
+          "k": 0.13900072997393892
+        },
+        {
+          "Bubble_number": 820,
+          "bubblePercentage": 72.80487804878048,
+          "uncertainty": 0.12195121951201113,
+          "k": 0.13785536582012448
+        }
+      ],
+      "werte": [
+        0.13861904631335578,
+        0.13816421316899624,
+        0.13900072997393892,
+        0.13785536582012448
+      ],
+      "standardabweichung": 0.0005035515197413468,
+      "average": 0.13840983881910385
+    },
+    {
+      "number": 830,
+      "information": [
+        {
+          "Bubble_number": 830,
+          "bubblePercentage": 72.40963855421687,
+          "uncertainty": 0.12048192771016358,
+          "k": 0.13828758992807877
+        },
+        {
+          "Bubble_number": 830,
+          "bubblePercentage": 75.42168674698794,
+          "uncertainty": 0.12048192771007887,
+          "k": 0.14074105428230663
+        },
+        {
+          "Bubble_number": 830,
+          "bubblePercentage": 72.04819277108435,
+          "uncertainty": 0.12048192771012123,
+          "k": 0.13801697954260908
+        },
+        {
+          "Bubble_number": 830,
+          "bubblePercentage": 74.09638554216868,
+          "uncertainty": 0.12048192771007887,
+          "k": 0.13956028289749664
+        }
+      ],
+      "werte": [
+        0.13828758992807877,
+        0.14074105428230663,
+        0.13801697954260908,
+        0.13956028289749664
+      ],
+      "standardabweichung": 0.0012552906107235352,
+      "average": 0.1391514766626228
+    },
+    {
+      "number": 840,
+      "information": [
+        {
+          "Bubble_number": 840,
+          "bubblePercentage": 73.69047619047619,
+          "uncertainty": 0.11904761904689692,
+          "k": 0.13958810485992168
+        },
+        {
+          "Bubble_number": 840,
+          "bubblePercentage": 73.92857142857143,
+          "uncertainty": 0.1190476190468334,
+          "k": 0.14046456171091323
+        },
+        {
+          "Bubble_number": 840,
+          "bubblePercentage": 73.21428571428571,
+          "uncertainty": 0.11904761904687575,
+          "k": 0.13954656308071461
+        },
+        {
+          "Bubble_number": 840,
+          "bubblePercentage": 74.16666666666667,
+          "uncertainty": 0.11904761904685457,
+          "k": 0.14048282300354378
+        }
+      ],
+      "werte": [
+        0.13958810485992168,
+        0.14046456171091323,
+        0.13954656308071461,
+        0.14048282300354378
+      ],
+      "standardabweichung": 0.0005236140826463911,
+      "average": 0.14002051316377334
+    },
+    {
+      "number": 850,
+      "information": [
+        {
+          "Bubble_number": 850,
+          "bubblePercentage": 73.41176470588235,
+          "uncertainty": 3.8116482626443515e-13,
+          "k": 0.14023504073116475
+        },
+        {
+          "Bubble_number": 850,
+          "bubblePercentage": 74.94117647058823,
+          "uncertainty": 3.5998900258307764e-13,
+          "k": 0.14155414123750948
+        },
+        {
+          "Bubble_number": 850,
+          "bubblePercentage": 73.05882352941177,
+          "uncertainty": 4.870439446712227e-13,
+          "k": 0.13972397363976052
+        },
+        {
+          "Bubble_number": 850,
+          "bubblePercentage": 69.6470588235294,
+          "uncertainty": 3.1763735522036263e-13,
+          "k": 0.1371270379049953
+        }
+      ],
+      "werte": [
+        0.14023504073116475,
+        0.14155414123750948,
+        0.13972397363976052,
+        0.1371270379049953
+      ],
+      "standardabweichung": 0.001856379313079211,
+      "average": 0.1396600483783575
+    },
+    {
+      "number": 860,
+      "information": [
+        {
+          "Bubble_number": 860,
+          "bubblePercentage": 75.5813953488372,
+          "uncertainty": 6.352747104407253e-13,
+          "k": 0.14244459153488362
+        },
+        {
+          "Bubble_number": 860,
+          "bubblePercentage": 72.55813953488372,
+          "uncertainty": 4.870439446712227e-13,
+          "k": 0.13992832402459673
+        },
+        {
+          "Bubble_number": 860,
+          "bubblePercentage": 71.3953488372093,
+          "uncertainty": 5.293955920339377e-13,
+          "k": 0.13907678185745448
+        },
+        {
+          "Bubble_number": 860,
+          "bubblePercentage": 74.06976744186046,
+          "uncertainty": 6.776263578034403e-13,
+          "k": 0.140974665616577
+        }
+      ],
+      "werte": [
+        0.14244459153488362,
+        0.13992832402459673,
+        0.13907678185745448,
+        0.140974665616577
+      ],
+      "standardabweichung": 0.001450756812974136,
+      "average": 0.14060609075837796
+    },
+    {
+      "number": 870,
+      "information": [
+        {
+          "Bubble_number": 870,
+          "bubblePercentage": 69.88505747126436,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.13886443425140851
+        },
+        {
+          "Bubble_number": 870,
+          "bubblePercentage": 72.98850574712644,
+          "uncertainty": 2.1175823681357508e-13,
+          "k": 0.14079555149532683
+        },
+        {
+          "Bubble_number": 870,
+          "bubblePercentage": 69.54022988505747,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.13816455920470921
+        },
+        {
+          "Bubble_number": 870,
+          "bubblePercentage": 73.2183908045977,
+          "uncertainty": 2.329340604949326e-13,
+          "k": 0.14121807581947896
+        }
+      ],
+      "werte": [
+        0.13886443425140851,
+        0.14079555149532683,
+        0.13816455920470921,
+        0.14121807581947896
+      ],
+      "standardabweichung": 0.0014771390838420417,
+      "average": 0.13976065519273087
+    },
+    {
+      "number": 880,
+      "information": [
+        {
+          "Bubble_number": 880,
+          "bubblePercentage": 73.29545454545455,
+          "uncertainty": 8.470329472543003e-14,
+          "k": 0.14179223495261506
+        },
+        {
+          "Bubble_number": 880,
+          "bubblePercentage": 74.77272727272727,
+          "uncertainty": 1.4823076576950256e-13,
+          "k": 0.14288995860123005
+        },
+        {
+          "Bubble_number": 880,
+          "bubblePercentage": 73.75,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.14198777869895945
+        },
+        {
+          "Bubble_number": 880,
+          "bubblePercentage": 73.18181818181819,
+          "uncertainty": 4.235164736271502e-14,
+          "k": 0.14137305117022314
+        }
+      ],
+      "werte": [
+        0.14179223495261506,
+        0.14288995860123005,
+        0.14198777869895945,
+        0.14137305117022314
+      ],
+      "standardabweichung": 0.0006397770623281349,
+      "average": 0.14201075585575693
+    },
+    {
+      "number": 890,
+      "information": [
+        {
+          "Bubble_number": 890,
+          "bubblePercentage": 72.24719101123596,
+          "uncertainty": 1.2705494208814505e-13,
+          "k": 0.14152958761543466
+        },
+        {
+          "Bubble_number": 890,
+          "bubblePercentage": 72.24719101123596,
+          "uncertainty": 1.6940658945086007e-13,
+          "k": 0.141627155926188
+        },
+        {
+          "Bubble_number": 890,
+          "bubblePercentage": 71.46067415730337,
+          "uncertainty": 1.9058241313221758e-13,
+          "k": 0.14064818093518153
+        },
+        {
+          "Bubble_number": 890,
+          "bubblePercentage": 73.59550561797754,
+          "uncertainty": 2.752857078576476e-13,
+          "k": 0.1424614158607942
+        }
+      ],
+      "werte": [
+        0.14152958761543466,
+        0.141627155926188,
+        0.14064818093518153,
+        0.1424614158607942
+      ],
+      "standardabweichung": 0.0007414458710898793,
+      "average": 0.1415665850843996
+    },
+    {
+      "number": 900,
+      "information": [
+        {
+          "Bubble_number": 900,
+          "bubblePercentage": 72.55555555555556,
+          "uncertainty": 0.1111111111109383,
+          "k": 0.14224781620639468
+        },
+        {
+          "Bubble_number": 900,
+          "bubblePercentage": 72.33333333333334,
+          "uncertainty": 0.11111111111085359,
+          "k": 0.14208192608696993
+        },
+        {
+          "Bubble_number": 900,
+          "bubblePercentage": 72.88888888888889,
+          "uncertainty": 0.11111111111076889,
+          "k": 0.1425391028532899
+        },
+        {
+          "Bubble_number": 900,
+          "bubblePercentage": 74.22222222222223,
+          "uncertainty": 0.11111111111076889,
+          "k": 0.14370408608052573
+        }
+      ],
+      "werte": [
+        0.14224781620639468,
+        0.14208192608696993,
+        0.1425391028532899,
+        0.14370408608052573
+      ],
+      "standardabweichung": 0.0007320455899270927,
+      "average": 0.14264323280679506
+    },
+    {
+      "number": 910,
+      "information": [
+        {
+          "Bubble_number": 910,
+          "bubblePercentage": 69.01098901098901,
+          "uncertainty": 0.10989010988978865,
+          "k": 0.1402945327573573
+        },
+        {
+          "Bubble_number": 910,
+          "bubblePercentage": 72.19780219780219,
+          "uncertainty": 0.10989010988978865,
+          "k": 0.14246786264899916
+        },
+        {
+          "Bubble_number": 910,
+          "bubblePercentage": 72.08791208791209,
+          "uncertainty": 0.1098901098896616,
+          "k": 0.14213144118318358
+        },
+        {
+          "Bubble_number": 910,
+          "bubblePercentage": 74.50549450549451,
+          "uncertainty": 0.10989010988964042,
+          "k": 0.14455949570827353
+        }
+      ],
+      "werte": [
+        0.1402945327573573,
+        0.14246786264899916,
+        0.14213144118318358,
+        0.14455949570827353
+      ],
+      "standardabweichung": 0.0017481194989088678,
+      "average": 0.1423633330744534
+    },
+    {
+      "number": 920,
+      "information": [
+        {
+          "Bubble_number": 920,
+          "bubblePercentage": 72.60869565217392,
+          "uncertainty": 6.988021814847978e-13,
+          "k": 0.14325839806707713
+        },
+        {
+          "Bubble_number": 920,
+          "bubblePercentage": 73.15217391304348,
+          "uncertainty": 7.411538288475128e-13,
+          "k": 0.14390063127254635
+        },
+        {
+          "Bubble_number": 920,
+          "bubblePercentage": 71.19565217391305,
+          "uncertainty": 6.988021814847978e-13,
+          "k": 0.14225822137238464
+        },
+        {
+          "Bubble_number": 920,
+          "bubblePercentage": 71.52173913043478,
+          "uncertainty": 6.564505341220828e-13,
+          "k": 0.14248691758628476
+        }
+      ],
+      "werte": [
+        0.14325839806707713,
+        0.14390063127254635,
+        0.14225822137238464,
+        0.14248691758628476
+      ],
+      "standardabweichung": 0.0007503553418315464,
+      "average": 0.1429760420745732
+    },
+    {
+      "number": 930,
+      "information": [
+        {
+          "Bubble_number": 930,
+          "bubblePercentage": 70.64516129032258,
+          "uncertainty": 0.10752688172061056,
+          "k": 0.14268235093446566
+        },
+        {
+          "Bubble_number": 930,
+          "bubblePercentage": 69.24731182795699,
+          "uncertainty": 0.10752688172063174,
+          "k": 0.14125043628675435
+        },
+        {
+          "Bubble_number": 930,
+          "bubblePercentage": 71.93548387096774,
+          "uncertainty": 0.10752688172056821,
+          "k": 0.14328567955210128
+        },
+        {
+          "Bubble_number": 930,
+          "bubblePercentage": 71.72043010752688,
+          "uncertainty": 0.10752688172061056,
+          "k": 0.14303015636553834
+        }
+      ],
+      "werte": [
+        0.14268235093446566,
+        0.14125043628675435,
+        0.14328567955210128,
+        0.14303015636553834
+      ],
+      "standardabweichung": 0.0009087658482758444,
+      "average": 0.14256215578471493
+    },
+    {
+      "number": 940,
+      "information": [
+        {
+          "Bubble_number": 940,
+          "bubblePercentage": 71.38297872340425,
+          "uncertainty": 7.835054762102278e-13,
+          "k": 0.14334808364544716
+        },
+        {
+          "Bubble_number": 940,
+          "bubblePercentage": 72.65957446808511,
+          "uncertainty": 8.258571235729428e-13,
+          "k": 0.14441377845111075
+        },
+        {
+          "Bubble_number": 940,
+          "bubblePercentage": 72.65957446808511,
+          "uncertainty": 9.105604182983729e-13,
+          "k": 0.14424933923224853
+        },
+        {
+          "Bubble_number": 940,
+          "bubblePercentage": 72.97872340425532,
+          "uncertainty": 8.893845946170154e-13,
+          "k": 0.14451233482324705
+        }
+      ],
+      "werte": [
+        0.14334808364544716,
+        0.14441377845111075,
+        0.14424933923224853,
+        0.14451233482324705
+      ],
+      "standardabweichung": 0.0005330234635736686,
+      "average": 0.14413088403801338
+    },
+    {
+      "number": 950,
+      "information": [
+        {
+          "Bubble_number": 950,
+          "bubblePercentage": 73.05263157894737,
+          "uncertainty": 0.10526315789399134,
+          "k": 0.14518130032487292
+        },
+        {
+          "Bubble_number": 950,
+          "bubblePercentage": 71.78947368421052,
+          "uncertainty": 0.10526315789407605,
+          "k": 0.14409270188934975
+        },
+        {
+          "Bubble_number": 950,
+          "bubblePercentage": 70.63157894736842,
+          "uncertainty": 0.10526315789433016,
+          "k": 0.143430177831814
+        },
+        {
+          "Bubble_number": 950,
+          "bubblePercentage": 73.36842105263159,
+          "uncertainty": 0.1052631578942031,
+          "k": 0.14555911013264902
+        }
+      ],
+      "werte": [
+        0.14518130032487292,
+        0.14409270188934975,
+        0.143430177831814,
+        0.14555911013264902
+      ],
+      "standardabweichung": 0.0009796198580206423,
+      "average": 0.14456582254467143
+    },
+    {
+      "number": 960,
+      "information": [
+        {
+          "Bubble_number": 960,
+          "bubblePercentage": 71.77083333333333,
+          "uncertainty": 0.10416666666598452,
+          "k": 0.14456300979522027
+        },
+        {
+          "Bubble_number": 960,
+          "bubblePercentage": 72.08333333333333,
+          "uncertainty": 0.10416666666606922,
+          "k": 0.14509204149714056
+        },
+        {
+          "Bubble_number": 960,
+          "bubblePercentage": 72.91666666666666,
+          "uncertainty": 0.10416666666592099,
+          "k": 0.14587788077103417
+        },
+        {
+          "Bubble_number": 960,
+          "bubblePercentage": 69.6875,
+          "uncertainty": 0.10416666666613275,
+          "k": 0.14343942216419714
+        }
+      ],
+      "werte": [
+        0.14456300979522027,
+        0.14509204149714056,
+        0.14587788077103417,
+        0.14343942216419714
+      ],
+      "standardabweichung": 0.0010233109575674855,
+      "average": 0.14474308855689802
+    },
+    {
+      "number": 970,
+      "information": [
+        {
+          "Bubble_number": 970,
+          "bubblePercentage": 73.29896907216494,
+          "uncertainty": 6.776263578034403e-13,
+          "k": 0.14637233993293233
+        },
+        {
+          "Bubble_number": 970,
+          "bubblePercentage": 71.1340206185567,
+          "uncertainty": 6.140988867593677e-13,
+          "k": 0.14481318733969326
+        },
+        {
+          "Bubble_number": 970,
+          "bubblePercentage": 70.61855670103093,
+          "uncertainty": 5.929230630780102e-13,
+          "k": 0.14419944975935994
+        },
+        {
+          "Bubble_number": 970,
+          "bubblePercentage": 73.71134020618557,
+          "uncertainty": 7.835054762102278e-13,
+          "k": 0.1469270202393636
+        }
+      ],
+      "werte": [
+        0.14637233993293233,
+        0.14481318733969326,
+        0.14419944975935994,
+        0.1469270202393636
+      ],
+      "standardabweichung": 0.001282727654466054,
+      "average": 0.14557799931783727
+    },
+    {
+      "number": 980,
+      "information": [
+        {
+          "Bubble_number": 980,
+          "bubblePercentage": 70,
+          "uncertainty": 0.1020408163264108,
+          "k": 0.14417412128699694
+        },
+        {
+          "Bubble_number": 980,
+          "bubblePercentage": 73.26530612244898,
+          "uncertainty": 0.10204081632653784,
+          "k": 0.146959230177711
+        },
+        {
+          "Bubble_number": 980,
+          "bubblePercentage": 72.34693877551021,
+          "uncertainty": 0.1020408163264955,
+          "k": 0.14641470548729096
+        },
+        {
+          "Bubble_number": 980,
+          "bubblePercentage": 71.0204081632653,
+          "uncertainty": 0.1020408163264955,
+          "k": 0.1450234790795436
+        }
+      ],
+      "werte": [
+        0.14417412128699694,
+        0.146959230177711,
+        0.14641470548729096,
+        0.1450234790795436
+      ],
+      "standardabweichung": 0.0012740227667264706,
+      "average": 0.14564288400788564
+    },
+    {
+      "number": 990,
+      "information": [
+        {
+          "Bubble_number": 990,
+          "bubblePercentage": 71.81818181818181,
+          "uncertainty": 8.258571235729428e-13,
+          "k": 0.14626715408558166
+        },
+        {
+          "Bubble_number": 990,
+          "bubblePercentage": 71.51515151515152,
+          "uncertainty": 7.623296525288703e-13,
+          "k": 0.14598952276164187
+        },
+        {
+          "Bubble_number": 990,
+          "bubblePercentage": 72.52525252525253,
+          "uncertainty": 7.411538288475128e-13,
+          "k": 0.14683457418380494
+        },
+        {
+          "Bubble_number": 990,
+          "bubblePercentage": 71.81818181818181,
+          "uncertainty": 6.988021814847978e-13,
+          "k": 0.14637750078792552
+        }
+      ],
+      "werte": [
+        0.14626715408558166,
+        0.14598952276164187,
+        0.14683457418380494,
+        0.14637750078792552
+      ],
+      "standardabweichung": 0.0003517546563086693,
+      "average": 0.14636718795473852
+    },
+    {
+      "number": 1000,
+      "information": [
+        {
+          "Bubble_number": 1000,
+          "bubblePercentage": 72.39999999999999,
+          "uncertainty": 0.099999999999944,
+          "k": 0.14696400904621473
+        },
+        {
+          "Bubble_number": 1000,
+          "bubblePercentage": 70.89999999999999,
+          "uncertainty": 0.10000000000009222,
+          "k": 0.14606448638473227
+        },
+        {
+          "Bubble_number": 1000,
+          "bubblePercentage": 69.5,
+          "uncertainty": 0.1000000000001134,
+          "k": 0.1450931214228579
+        },
+        {
+          "Bubble_number": 1000,
+          "bubblePercentage": 73.3,
+          "uncertainty": 0.1000000000001134,
+          "k": 0.14797441950170565
+        }
+      ],
+      "werte": [
+        0.14696400904621473,
+        0.14606448638473227,
+        0.1450931214228579,
+        0.14797441950170565
+      ],
+      "standardabweichung": 0.0012323271963361332,
+      "average": 0.14652400908887764
+    },
+    {
+      "number": 2000,
+      "information": [
+        {
+          "Bubble_number": 2000,
+          "bubblePercentage": 65.35,
+          "uncertainty": 6.776263578034403e-13,
+          "k": 0.17766124849696016
+        },
+        {
+          "Bubble_number": 2000,
+          "bubblePercentage": 65.25,
+          "uncertainty": 8.258571235729428e-13,
+          "k": 0.17789346179096713
+        },
+        {
+          "Bubble_number": 2000,
+          "bubblePercentage": 66.4,
+          "uncertainty": 8.258571235729428e-13,
+          "k": 0.17884728563329544
+        },
+        {
+          "Bubble_number": 2000,
+          "bubblePercentage": 64.64999999999999,
+          "uncertainty": 7.411538288475128e-13,
+          "k": 0.1774083477182328
+        }
+      ],
+      "werte": [
+        0.17766124849696016,
+        0.17789346179096713,
+        0.17884728563329544,
+        0.1774083477182328
+      ],
+      "standardabweichung": 0.0006285050925094996,
+      "average": 0.17795258590986388
+    },
+    {
+      "number": 3000,
+      "information": [
+        {
+          "Bubble_number": 3000,
+          "bubblePercentage": 62.33333333333333,
+          "uncertainty": 0.03333333333179706,
+          "k": 0.19977325954540254
+        },
+        {
+          "Bubble_number": 3000,
+          "bubblePercentage": 61.16666666666667,
+          "uncertainty": 0.03333333333183942,
+          "k": 0.198241655340198
+        },
+        {
+          "Bubble_number": 3000,
+          "bubblePercentage": 60.43333333333333,
+          "uncertainty": 0.03333333333183942,
+          "k": 0.1970701578724489
+        },
+        {
+          "Bubble_number": 3000,
+          "bubblePercentage": 61.133333333333326,
+          "uncertainty": 0.03333333333186059,
+          "k": 0.19812811495587307
+        }
+      ],
+      "werte": [
+        0.19977325954540254,
+        0.198241655340198,
+        0.1970701578724489,
+        0.19812811495587307
+      ],
+      "standardabweichung": 0.001112940614706739,
+      "average": 0.19830329692848064
+    },
+    {
+      "number": 4000,
+      "information": [
+        {
+          "Bubble_number": 4000,
+          "bubblePercentage": 58.275,
+          "uncertainty": 1.122318655111948e-12,
+          "k": 0.21416595629958732
+        },
+        {
+          "Bubble_number": 4000,
+          "bubblePercentage": 58.575,
+          "uncertainty": 1.0164395367051604e-12,
+          "k": 0.2143191527869331
+        },
+        {
+          "Bubble_number": 4000,
+          "bubblePercentage": 58.525000000000006,
+          "uncertainty": 9.317362419797304e-13,
+          "k": 0.21455576359178608
+        },
+        {
+          "Bubble_number": 4000,
+          "bubblePercentage": 58.75,
+          "uncertainty": 9.105604182983729e-13,
+          "k": 0.21487551209473502
+        }
+      ],
+      "werte": [
+        0.21416595629958732,
+        0.2143191527869331,
+        0.21455576359178608,
+        0.21487551209473502
+      ],
+      "standardabweichung": 0.000309118069770436,
+      "average": 0.21447909619326036
+    },
+    {
+      "number": 5000,
+      "information": [
+        {
+          "Bubble_number": 5000,
+          "bubblePercentage": 56.14,
+          "uncertainty": 1.8634724839594607e-12,
+          "k": 0.22746571311459854
+        },
+        {
+          "Bubble_number": 5000,
+          "bubblePercentage": 56.2,
+          "uncertainty": 1.8846483076408183e-12,
+          "k": 0.22742265310449886
+        },
+        {
+          "Bubble_number": 5000,
+          "bubblePercentage": 56.58,
+          "uncertainty": 1.9481757786848908e-12,
+          "k": 0.2280533051373554
+        },
+        {
+          "Bubble_number": 5000,
+          "bubblePercentage": 56.54,
+          "uncertainty": 1.9481757786848908e-12,
+          "k": 0.22796666700323084
+        }
+      ],
+      "werte": [
+        0.22746571311459854,
+        0.22742265310449886,
+        0.2280533051373554,
+        0.22796666700323084
+      ],
+      "standardabweichung": 0.0003290456684435226,
+      "average": 0.22772708458992091
+    },
+    {
+      "number": 6000,
+      "information": [
+        {
+          "Bubble_number": 6000,
+          "bubblePercentage": 53.849999999999994,
+          "uncertainty": 1.7787691892340307e-12,
+          "k": 0.23807891111921314
+        },
+        {
+          "Bubble_number": 6000,
+          "bubblePercentage": 54.016666666666666,
+          "uncertainty": 1.5670109524204556e-12,
+          "k": 0.23800287711358983
+        },
+        {
+          "Bubble_number": 6000,
+          "bubblePercentage": 53.083333333333336,
+          "uncertainty": 1.6093625997831706e-12,
+          "k": 0.23610380768397005
+        },
+        {
+          "Bubble_number": 6000,
+          "bubblePercentage": 54.86666666666666,
+          "uncertainty": 1.5034834813763831e-12,
+          "k": 0.23909480806694272
+        }
+      ],
+      "werte": [
+        0.23807891111921314,
+        0.23800287711358983,
+        0.23610380768397005,
+        0.23909480806694272
+      ],
+      "standardabweichung": 0.0012477887960533672,
+      "average": 0.23782010099592896
+    },
+    {
+      "number": 7000,
+      "information": [
+        {
+          "Bubble_number": 7000,
+          "bubblePercentage": 52.214285714285715,
+          "uncertainty": 0.014285714283319467,
+          "k": 0.2469169166160922
+        },
+        {
+          "Bubble_number": 7000,
+          "bubblePercentage": 51.6,
+          "uncertainty": 0.014285714283467697,
+          "k": 0.24655179651948197
+        },
+        {
+          "Bubble_number": 7000,
+          "bubblePercentage": 51.75714285714286,
+          "uncertainty": 0.0142857142835524,
+          "k": 0.24647954700621633
+        },
+        {
+          "Bubble_number": 7000,
+          "bubblePercentage": 51.24285714285715,
+          "uncertainty": 0.014285714283361818,
+          "k": 0.2454296670030889
+        }
+      ],
+      "werte": [
+        0.2469169166160922,
+        0.24655179651948197,
+        0.24647954700621633,
+        0.2454296670030889
+      ],
+      "standardabweichung": 0.0006392155959106262,
+      "average": 0.24634448178621984
+    },
+    {
+      "number": 8000,
+      "information": [
+        {
+          "Bubble_number": 8000,
+          "bubblePercentage": 50.737500000000004,
+          "uncertainty": 0.012499999998566278,
+          "k": 0.25563601080345083
+        },
+        {
+          "Bubble_number": 8000,
+          "bubblePercentage": 51.6625,
+          "uncertainty": 0.012499999998947442,
+          "k": 0.25708800009242755
+        },
+        {
+          "Bubble_number": 8000,
+          "bubblePercentage": 50.875,
+          "uncertainty": 0.012499999998714508,
+          "k": 0.2562912799565935
+        },
+        {
+          "Bubble_number": 8000,
+          "bubblePercentage": 50.125,
+          "uncertainty": 0.012499999998820387,
+          "k": 0.2545483905013895
+        }
+      ],
+      "werte": [
+        0.25563601080345083,
+        0.25708800009242755,
+        0.2562912799565935,
+        0.2545483905013895
+      ],
+      "standardabweichung": 0.0010740349149591856,
+      "average": 0.25589092033846533
+    },
+    {
+      "number": 9000,
+      "information": [
+        {
+          "Bubble_number": 9000,
+          "bubblePercentage": 49.166666666666664,
+          "uncertainty": 1.7787691892340307e-12,
+          "k": 0.2624140575464091
+        },
+        {
+          "Bubble_number": 9000,
+          "bubblePercentage": 49.32222222222222,
+          "uncertainty": 1.8211208365967457e-12,
+          "k": 0.26251741648440047
+        },
+        {
+          "Bubble_number": 9000,
+          "bubblePercentage": 49.1,
+          "uncertainty": 1.7364175418713157e-12,
+          "k": 0.26225233685312455
+        },
+        {
+          "Bubble_number": 9000,
+          "bubblePercentage": 49.35555555555556,
+          "uncertainty": 1.6940658945086007e-12,
+          "k": 0.2630319689366404
+        }
+      ],
+      "werte": [
+        0.2624140575464091,
+        0.26251741648440047,
+        0.26225233685312455,
+        0.2630319689366404
+      ],
+      "standardabweichung": 0.00033683684991740986,
+      "average": 0.2625539449551436
+    },
+    {
+      "number": 10000,
+      "information": [
+        {
+          "Bubble_number": 10000,
+          "bubblePercentage": 48.26,
+          "uncertainty": 4.319868030996932e-12,
+          "k": 0.2696891261397269
+        },
+        {
+          "Bubble_number": 10000,
+          "bubblePercentage": 48.57,
+          "uncertainty": 4.319868030996932e-12,
+          "k": 0.27019501499900256
+        },
+        {
+          "Bubble_number": 10000,
+          "bubblePercentage": 47.55,
+          "uncertainty": 4.341043854678289e-12,
+          "k": 0.26846825907120414
+        },
+        {
+          "Bubble_number": 10000,
+          "bubblePercentage": 48.28,
+          "uncertainty": 4.256340559952859e-12,
+          "k": 0.2698718579584952
+        }
+      ],
+      "werte": [
+        0.2696891261397269,
+        0.27019501499900256,
+        0.26846825907120414,
+        0.2698718579584952
+      ],
+      "standardabweichung": 0.0007547647093605924,
+      "average": 0.26955606454210723
+    },
+    {
+      "number": 20000,
+      "information": [
+        {
+          "Bubble_number": 20000,
+          "bubblePercentage": 39.98,
+          "uncertainty": 0.005000000004436711,
+          "k": 0.31596491064683807
+        },
+        {
+          "Bubble_number": 20000,
+          "bubblePercentage": 39.235,
+          "uncertainty": 0.005000000004648469,
+          "k": 0.3140177537826701
+        },
+        {
+          "Bubble_number": 20000,
+          "bubblePercentage": 39.635,
+          "uncertainty": 0.005000000004606118,
+          "k": 0.31532897305502844
+        },
+        {
+          "Bubble_number": 20000,
+          "bubblePercentage": 39.125,
+          "uncertainty": 0.005000000004733172,
+          "k": 0.3138913062718363
+        }
+      ],
+      "werte": [
+        0.31596491064683807,
+        0.3140177537826701,
+        0.31532897305502844,
+        0.3138913062718363
+      ],
+      "standardabweichung": 0.0010123340321205522,
+      "average": 0.3148007359390932
+    },
+    {
+      "number": 30000,
+      "information": [
+        {
+          "Bubble_number": 30000,
+          "bubblePercentage": 34.21333333333333,
+          "uncertainty": 0.0033333333334676974,
+          "k": 0.3414121999842946
+        },
+        {
+          "Bubble_number": 30000,
+          "bubblePercentage": 34.486666666666665,
+          "uncertainty": 0.0033333333328959503,
+          "k": 0.3419753807612986
+        },
+        {
+          "Bubble_number": 30000,
+          "bubblePercentage": 34.73,
+          "uncertainty": 0.003333333333488873,
+          "k": 0.3434555170722101
+        },
+        {
+          "Bubble_number": 30000,
+          "bubblePercentage": 34.64,
+          "uncertainty": 0.003333333333552401,
+          "k": 0.343030878600479
+        }
+      ],
+      "werte": [
+        0.3414121999842946,
+        0.3419753807612986,
+        0.3434555170722101,
+        0.343030878600479
+      ],
+      "standardabweichung": 0.0009397532828227783,
+      "average": 0.34246849410457053
+    },
+    {
+      "number": 40000,
+      "information": [
+        {
+          "Bubble_number": 40000,
+          "bubblePercentage": 31.1975,
+          "uncertainty": 0.0024999999934621525,
+          "k": 0.3625302733598605
+        },
+        {
+          "Bubble_number": 40000,
+          "bubblePercentage": 31.087500000000002,
+          "uncertainty": 0.0024999999930598116,
+          "k": 0.3619359355187397
+        },
+        {
+          "Bubble_number": 40000,
+          "bubblePercentage": 31.009999999999998,
+          "uncertainty": 0.0024999999931021636,
+          "k": 0.36192737601758646
+        },
+        {
+          "Bubble_number": 40000,
+          "bubblePercentage": 31.514999999999997,
+          "uncertainty": 0.0024999999928268777,
+          "k": 0.3644636753266593
+        }
+      ],
+      "werte": [
+        0.3625302733598605,
+        0.3619359355187397,
+        0.36192737601758646,
+        0.3644636753266593
+      ],
+      "standardabweichung": 0.0011999000592665856,
+      "average": 0.3627143150557115
+    },
+    {
+      "number": 50000,
+      "information": [
+        {
+          "Bubble_number": 50000,
+          "bubblePercentage": 28.302,
+          "uncertainty": 5.378659215064807e-12,
+          "k": 0.376975106364124
+        },
+        {
+          "Bubble_number": 50000,
+          "bubblePercentage": 28.542,
+          "uncertainty": 5.929230630780102e-12,
+          "k": 0.37819240722435005
+        },
+        {
+          "Bubble_number": 50000,
+          "bubblePercentage": 28.451999999999998,
+          "uncertainty": 5.124549330888517e-12,
+          "k": 0.3773427508818216
+        },
+        {
+          "Bubble_number": 50000,
+          "bubblePercentage": 28.458,
+          "uncertainty": 6.0139339255055324e-12,
+          "k": 0.37754888629592365
+        }
+      ],
+      "werte": [
+        0.376975106364124,
+        0.37819240722435005,
+        0.3773427508818216,
+        0.37754888629592365
+      ],
+      "standardabweichung": 0.0005102886585473553,
+      "average": 0.3775147876915549
+    },
+    {
+      "number": 60000,
+      "information": [
+        {
+          "Bubble_number": 60000,
+          "bubblePercentage": 26.566666666666666,
+          "uncertainty": 4.743384504624082e-12,
+          "k": 0.39081967235885107
+        },
+        {
+          "Bubble_number": 60000,
+          "bubblePercentage": 26.435,
+          "uncertainty": 4.383395502041004e-12,
+          "k": 0.39106528015426895
+        },
+        {
+          "Bubble_number": 60000,
+          "bubblePercentage": 26.468333333333334,
+          "uncertainty": 4.616329562535937e-12,
+          "k": 0.3908755228504756
+        },
+        {
+          "Bubble_number": 60000,
+          "bubblePercentage": 26.263333333333332,
+          "uncertainty": 4.150461441546072e-12,
+          "k": 0.3898341075175736
+        }
+      ],
+      "werte": [
+        0.39081967235885107,
+        0.39106528015426895,
+        0.3908755228504756,
+        0.3898341075175736
+      ],
+      "standardabweichung": 0.0005531064028316817,
+      "average": 0.3906486457202923
+    },
+    {
+      "number": 70000,
+      "information": [
+        {
+          "Bubble_number": 70000,
+          "bubblePercentage": 24.628571428571426,
+          "uncertainty": 0.0014285714302928279,
+          "k": 0.40076443721948984
+        },
+        {
+          "Bubble_number": 70000,
+          "bubblePercentage": 24.591428571428573,
+          "uncertainty": 0.0014285714304410587,
+          "k": 0.4002292459105117
+        },
+        {
+          "Bubble_number": 70000,
+          "bubblePercentage": 24.77,
+          "uncertainty": 0.0014285714300810697,
+          "k": 0.4013624191554434
+        },
+        {
+          "Bubble_number": 70000,
+          "bubblePercentage": 24.702857142857145,
+          "uncertainty": 0.0014285714304834104,
+          "k": 0.40111685285172727
+        }
+      ],
+      "werte": [
+        0.40076443721948984,
+        0.4002292459105117,
+        0.4013624191554434,
+        0.40111685285172727
+      ],
+      "standardabweichung": 0.000491633281811915,
+      "average": 0.40086823878429306
+    },
+    {
+      "number": 80000,
+      "information": [
+        {
+          "Bubble_number": 80000,
+          "bubblePercentage": 23.32125,
+          "uncertainty": 6.564505341220828e-12,
+          "k": 0.41015358318310097
+        },
+        {
+          "Bubble_number": 80000,
+          "bubblePercentage": 23.23625,
+          "uncertainty": 6.37392292808861e-12,
+          "k": 0.40977206893724466
+        },
+        {
+          "Bubble_number": 80000,
+          "bubblePercentage": 23.1525,
+          "uncertainty": 6.45862622281404e-12,
+          "k": 0.409466248003221
+        },
+        {
+          "Bubble_number": 80000,
+          "bubblePercentage": 23.244999999999997,
+          "uncertainty": 6.45862622281404e-12,
+          "k": 0.4101465547667051
+        }
+      ],
+      "werte": [
+        0.41015358318310097,
+        0.40977206893724466,
+        0.409466248003221,
+        0.4101465547667051
+      ],
+      "standardabweichung": 0.0003309853396205645,
+      "average": 0.40988461372256796
+    },
+    {
+      "number": 90000,
+      "information": [
+        {
+          "Bubble_number": 90000,
+          "bubblePercentage": 22.102222222222224,
+          "uncertainty": 0.0011111111084101007,
+          "k": 0.41830674925608796
+        },
+        {
+          "Bubble_number": 90000,
+          "bubblePercentage": 21.895555555555553,
+          "uncertainty": 0.001111111108494804,
+          "k": 0.416948273700377
+        },
+        {
+          "Bubble_number": 90000,
+          "bubblePercentage": 22.00888888888889,
+          "uncertainty": 0.0011111111080289358,
+          "k": 0.41769365295731764
+        },
+        {
+          "Bubble_number": 90000,
+          "bubblePercentage": 21.92,
+          "uncertainty": 0.0011111111087489139,
+          "k": 0.41676267228816616
+        }
+      ],
+      "werte": [
+        0.41830674925608796,
+        0.416948273700377,
+        0.41769365295731764,
+        0.41676267228816616
+      ],
+      "standardabweichung": 0.0007107671745563844,
+      "average": 0.4174278370504872
+    },
+    {
+      "number": 100000,
+      "information": [
+        {
+          "Bubble_number": 100000,
+          "bubblePercentage": 20.927,
+          "uncertainty": 0.0010000000023357685,
+          "k": 0.42465300595010597
+        },
+        {
+          "Bubble_number": 100000,
+          "bubblePercentage": 20.952,
+          "uncertainty": 0.0010000000024416476,
+          "k": 0.42504913278657047
+        },
+        {
+          "Bubble_number": 100000,
+          "bubblePercentage": 20.907999999999998,
+          "uncertainty": 0.0010000000028016365,
+          "k": 0.42519371202725254
+        },
+        {
+          "Bubble_number": 100000,
+          "bubblePercentage": 20.958,
+          "uncertainty": 0.0010000000022298895,
+          "k": 0.4247893606665281
+        }
+      ],
+      "werte": [
+        0.42465300595010597,
+        0.42504913278657047,
+        0.42519371202725254,
+        0.4247893606665281
+      ],
+      "standardabweichung": 0.0002449076144229978,
+      "average": 0.42492130285761426
+    }
+  ],
+  "ergebnisse": [
+    {
+      "number": 1,
+      "average": 0.016790819046637838,
+      "standardabweichung": 0
+    },
+    {
+      "number": 2,
+      "average": 0.021155106361834777,
+      "standardabweichung": 0
+    },
+    {
+      "number": 3,
+      "average": 0.02421655155512288,
+      "standardabweichung": 0
+    },
+    {
+      "number": 4,
+      "average": 0.02665376381804059,
+      "standardabweichung": 0
+    },
+    {
+      "number": 5,
+      "average": 0.028711896694751656,
+      "standardabweichung": 0
+    },
+    {
+      "number": 6,
+      "average": 0.029461877809323588,
+      "standardabweichung": 0.0020981305016802843
+    },
+    {
+      "number": 7,
+      "average": 0.03211968133860209,
+      "standardabweichung": 0
+    },
+    {
+      "number": 8,
+      "average": 0.032715653808871294,
+      "standardabweichung": 0.0017319685688087748
+    },
+    {
+      "number": 9,
+      "average": 0.03452601776336835,
+      "standardabweichung": 0.0008005866226696649
+    },
+    {
+      "number": 10,
+      "average": 0.03534278020536994,
+      "standardabweichung": 0.0016638856455094345
+    },
+    {
+      "number": 20,
+      "average": 0.04715096686892913,
+      "standardabweichung": 0.0009002277305020048
+    },
+    {
+      "number": 30,
+      "average": 0.0501173525157417,
+      "standardabweichung": 0.0013068172774458912
+    },
+    {
+      "number": 40,
+      "average": 0.05684734916867494,
+      "standardabweichung": 0.0007425810882086077
+    },
+    {
+      "number": 50,
+      "average": 0.058736614664557804,
+      "standardabweichung": 0.00006765476525351895
+    },
+    {
+      "number": 60,
+      "average": 0.061674814730048697,
+      "standardabweichung": 0.0008796901745927631
+    },
+    {
+      "number": 70,
+      "average": 0.06647056709543188,
+      "standardabweichung": 0.0004740741155260508
+    },
+    {
+      "number": 80,
+      "average": 0.0687075325238381,
+      "standardabweichung": 0.0007155602200203593
+    },
+    {
+      "number": 90,
+      "average": 0.07222453608209287,
+      "standardabweichung": 0.0018777644657112754
+    },
+    {
+      "number": 100,
+      "average": 0.07254240924958175,
+      "standardabweichung": 0.000483760477878394
+    },
+    {
+      "number": 110,
+      "average": 0.07549726586212943,
+      "standardabweichung": 0.0007896234990865862
+    },
+    {
+      "number": 120,
+      "average": 0.07846674936787931,
+      "standardabweichung": 0.0013689287156871059
+    },
+    {
+      "number": 130,
+      "average": 0.0801868292878608,
+      "standardabweichung": 0.0009334229254716077
+    },
+    {
+      "number": 140,
+      "average": 0.08256079062064178,
+      "standardabweichung": 0.0006964302571872664
+    },
+    {
+      "number": 150,
+      "average": 0.08266273043605021,
+      "standardabweichung": 0.0005155229198096103
+    },
+    {
+      "number": 160,
+      "average": 0.08415414374948688,
+      "standardabweichung": 0.001106852779295911
+    },
+    {
+      "number": 170,
+      "average": 0.086141231762355,
+      "standardabweichung": 0.0010333174964443138
+    },
+    {
+      "number": 180,
+      "average": 0.0882835373215022,
+      "standardabweichung": 0.0009854987778382127
+    },
+    {
+      "number": 190,
+      "average": 0.09076675254828412,
+      "standardabweichung": 0.0004351936620779327
+    },
+    {
+      "number": 200,
+      "average": 0.09086236569319056,
+      "standardabweichung": 0.0009481080163186045
+    },
+    {
+      "number": 210,
+      "average": 0.09204656990668375,
+      "standardabweichung": 0.0011196473745547306
+    },
+    {
+      "number": 220,
+      "average": 0.09370581560044726,
+      "standardabweichung": 0.0011597803042988088
+    },
+    {
+      "number": 230,
+      "average": 0.0946118322523476,
+      "standardabweichung": 0.0008202937651366941
+    },
+    {
+      "number": 240,
+      "average": 0.09625295212677966,
+      "standardabweichung": 0.0007487626109836949
+    },
+    {
+      "number": 250,
+      "average": 0.0965513860363329,
+      "standardabweichung": 0.0009380979904693359
+    },
+    {
+      "number": 260,
+      "average": 0.09865781469250967,
+      "standardabweichung": 0.000559662822756419
+    },
+    {
+      "number": 270,
+      "average": 0.09960304181951252,
+      "standardabweichung": 0.00041311500514196084
+    },
+    {
+      "number": 280,
+      "average": 0.10012106569055107,
+      "standardabweichung": 0.0011014174612658163
+    },
+    {
+      "number": 290,
+      "average": 0.10191947704842616,
+      "standardabweichung": 0.0015154473630138562
+    },
+    {
+      "number": 300,
+      "average": 0.10207131918488775,
+      "standardabweichung": 0.0011110038796747163
+    },
+    {
+      "number": 310,
+      "average": 0.10310581563759001,
+      "standardabweichung": 0.001781021402055274
+    },
+    {
+      "number": 320,
+      "average": 0.10607123820668907,
+      "standardabweichung": 0.0011693027091869597
+    },
+    {
+      "number": 330,
+      "average": 0.10537848289765656,
+      "standardabweichung": 0.001744091754951913
+    },
+    {
+      "number": 340,
+      "average": 0.10600633236450663,
+      "standardabweichung": 0.0008497853565788128
+    },
+    {
+      "number": 350,
+      "average": 0.10734089924489422,
+      "standardabweichung": 0.0009695077244228686
+    },
+    {
+      "number": 360,
+      "average": 0.10752711585898357,
+      "standardabweichung": 0.0011076473337111603
+    },
+    {
+      "number": 370,
+      "average": 0.10946296608350906,
+      "standardabweichung": 0.000973728945290779
+    },
+    {
+      "number": 380,
+      "average": 0.11015560329766269,
+      "standardabweichung": 0.0019801283912512222
+    },
+    {
+      "number": 390,
+      "average": 0.11202744967510056,
+      "standardabweichung": 0.0011228275477563013
+    },
+    {
+      "number": 400,
+      "average": 0.11190868956007617,
+      "standardabweichung": 0.001076090085247966
+    },
+    {
+      "number": 410,
+      "average": 0.11180264609145543,
+      "standardabweichung": 0.001222744577914276
+    },
+    {
+      "number": 420,
+      "average": 0.11412394519645779,
+      "standardabweichung": 0.0017758033409772964
+    },
+    {
+      "number": 430,
+      "average": 0.11375644089202155,
+      "standardabweichung": 0.0009745596401872342
+    },
+    {
+      "number": 440,
+      "average": 0.11574435633839951,
+      "standardabweichung": 0.0005458604560413151
+    },
+    {
+      "number": 450,
+      "average": 0.11494767025185312,
+      "standardabweichung": 0.00027693636747679127
+    },
+    {
+      "number": 460,
+      "average": 0.11769092405020212,
+      "standardabweichung": 0.00034878300278305376
+    },
+    {
+      "number": 470,
+      "average": 0.11772613251594836,
+      "standardabweichung": 0.0005190967831170128
+    },
+    {
+      "number": 480,
+      "average": 0.1178637904256529,
+      "standardabweichung": 0.001439506568273792
+    },
+    {
+      "number": 490,
+      "average": 0.11895125028553472,
+      "standardabweichung": 0.0014189245163163864
+    },
+    {
+      "number": 500,
+      "average": 0.12015253683059857,
+      "standardabweichung": 0.0006571132200192134
+    },
+    {
+      "number": 510,
+      "average": 0.12085918639276139,
+      "standardabweichung": 0.0010057065967835688
+    },
+    {
+      "number": 520,
+      "average": 0.12135042637247263,
+      "standardabweichung": 0.0010220455838229686
+    },
+    {
+      "number": 530,
+      "average": 0.12268879266334547,
+      "standardabweichung": 0.0008322417824197883
+    },
+    {
+      "number": 540,
+      "average": 0.12256512660668731,
+      "standardabweichung": 0.0006807680186130387
+    },
+    {
+      "number": 550,
+      "average": 0.12352446762553258,
+      "standardabweichung": 0.0013249640623035981
+    },
+    {
+      "number": 560,
+      "average": 0.12368396322556836,
+      "standardabweichung": 0.0010666542473571773
+    },
+    {
+      "number": 570,
+      "average": 0.12425029750121597,
+      "standardabweichung": 0.0012484723716131329
+    },
+    {
+      "number": 580,
+      "average": 0.12453554138823034,
+      "standardabweichung": 0.001513447768244412
+    },
+    {
+      "number": 590,
+      "average": 0.12629853973506594,
+      "standardabweichung": 0.0009097242379839731
+    },
+    {
+      "number": 600,
+      "average": 0.1263789393808918,
+      "standardabweichung": 0.001344117334964242
+    },
+    {
+      "number": 610,
+      "average": 0.12697434005152639,
+      "standardabweichung": 0.0016094696825245665
+    },
+    {
+      "number": 620,
+      "average": 0.1274705294903551,
+      "standardabweichung": 0.0009974631608285459
+    },
+    {
+      "number": 630,
+      "average": 0.1276035436348752,
+      "standardabweichung": 0.0009696294288755038
+    },
+    {
+      "number": 640,
+      "average": 0.12782836060243347,
+      "standardabweichung": 0.000467113118046428
+    },
+    {
+      "number": 650,
+      "average": 0.13002541270753015,
+      "standardabweichung": 0.0005282043269793453
+    },
+    {
+      "number": 660,
+      "average": 0.13016643848807324,
+      "standardabweichung": 0.001133519673018353
+    },
+    {
+      "number": 670,
+      "average": 0.1302479613568778,
+      "standardabweichung": 0.0006860952475227577
+    },
+    {
+      "number": 680,
+      "average": 0.13134697290205366,
+      "standardabweichung": 0.0016559945255916224
+    },
+    {
+      "number": 690,
+      "average": 0.13115559448726438,
+      "standardabweichung": 0.000395323335417021
+    },
+    {
+      "number": 700,
+      "average": 0.13178183084840583,
+      "standardabweichung": 0.0010929580278682966
+    },
+    {
+      "number": 710,
+      "average": 0.13262299268773128,
+      "standardabweichung": 0.0018530999918482238
+    },
+    {
+      "number": 720,
+      "average": 0.13332895230527578,
+      "standardabweichung": 0.0013515189952011237
+    },
+    {
+      "number": 730,
+      "average": 0.13353725313773102,
+      "standardabweichung": 0.00169280964963124
+    },
+    {
+      "number": 740,
+      "average": 0.13340431908821965,
+      "standardabweichung": 0.001306818329581058
+    },
+    {
+      "number": 750,
+      "average": 0.13453902625414602,
+      "standardabweichung": 0.00047605666062023694
+    },
+    {
+      "number": 760,
+      "average": 0.1356472635746953,
+      "standardabweichung": 0.001357257550870615
+    },
+    {
+      "number": 770,
+      "average": 0.13525464101925255,
+      "standardabweichung": 0.000601338251461932
+    },
+    {
+      "number": 780,
+      "average": 0.13691548074464327,
+      "standardabweichung": 0.0010150778770918543
+    },
+    {
+      "number": 790,
+      "average": 0.13645531062726662,
+      "standardabweichung": 0.0005093954896223564
+    },
+    {
+      "number": 800,
+      "average": 0.1375473857731126,
+      "standardabweichung": 0.0013216253880627804
+    },
+    {
+      "number": 810,
+      "average": 0.13768836582182015,
+      "standardabweichung": 0.001212565933025967
+    },
+    {
+      "number": 820,
+      "average": 0.13840983881910385,
+      "standardabweichung": 0.0005035515197413468
+    },
+    {
+      "number": 830,
+      "average": 0.1391514766626228,
+      "standardabweichung": 0.0012552906107235352
+    },
+    {
+      "number": 840,
+      "average": 0.14002051316377334,
+      "standardabweichung": 0.0005236140826463911
+    },
+    {
+      "number": 850,
+      "average": 0.1396600483783575,
+      "standardabweichung": 0.001856379313079211
+    },
+    {
+      "number": 860,
+      "average": 0.14060609075837796,
+      "standardabweichung": 0.001450756812974136
+    },
+    {
+      "number": 870,
+      "average": 0.13976065519273087,
+      "standardabweichung": 0.0014771390838420417
+    },
+    {
+      "number": 880,
+      "average": 0.14201075585575693,
+      "standardabweichung": 0.0006397770623281349
+    },
+    {
+      "number": 890,
+      "average": 0.1415665850843996,
+      "standardabweichung": 0.0007414458710898793
+    },
+    {
+      "number": 900,
+      "average": 0.14264323280679506,
+      "standardabweichung": 0.0007320455899270927
+    },
+    {
+      "number": 910,
+      "average": 0.1423633330744534,
+      "standardabweichung": 0.0017481194989088678
+    },
+    {
+      "number": 920,
+      "average": 0.1429760420745732,
+      "standardabweichung": 0.0007503553418315464
+    },
+    {
+      "number": 930,
+      "average": 0.14256215578471493,
+      "standardabweichung": 0.0009087658482758444
+    },
+    {
+      "number": 940,
+      "average": 0.14413088403801338,
+      "standardabweichung": 0.0005330234635736686
+    },
+    {
+      "number": 950,
+      "average": 0.14456582254467143,
+      "standardabweichung": 0.0009796198580206423
+    },
+    {
+      "number": 960,
+      "average": 0.14474308855689802,
+      "standardabweichung": 0.0010233109575674855
+    },
+    {
+      "number": 970,
+      "average": 0.14557799931783727,
+      "standardabweichung": 0.001282727654466054
+    },
+    {
+      "number": 980,
+      "average": 0.14564288400788564,
+      "standardabweichung": 0.0012740227667264706
+    },
+    {
+      "number": 990,
+      "average": 0.14636718795473852,
+      "standardabweichung": 0.0003517546563086693
+    },
+    {
+      "number": 1000,
+      "average": 0.14652400908887764,
+      "standardabweichung": 0.0012323271963361332
+    },
+    {
+      "number": 2000,
+      "average": 0.17795258590986388,
+      "standardabweichung": 0.0006285050925094996
+    },
+    {
+      "number": 3000,
+      "average": 0.19830329692848064,
+      "standardabweichung": 0.001112940614706739
+    },
+    {
+      "number": 4000,
+      "average": 0.21447909619326036,
+      "standardabweichung": 0.000309118069770436
+    },
+    {
+      "number": 5000,
+      "average": 0.22772708458992091,
+      "standardabweichung": 0.0003290456684435226
+    },
+    {
+      "number": 6000,
+      "average": 0.23782010099592896,
+      "standardabweichung": 0.0012477887960533672
+    },
+    {
+      "number": 7000,
+      "average": 0.24634448178621984,
+      "standardabweichung": 0.0006392155959106262
+    },
+    {
+      "number": 8000,
+      "average": 0.25589092033846533,
+      "standardabweichung": 0.0010740349149591856
+    },
+    {
+      "number": 9000,
+      "average": 0.2625539449551436,
+      "standardabweichung": 0.00033683684991740986
+    },
+    {
+      "number": 10000,
+      "average": 0.26955606454210723,
+      "standardabweichung": 0.0007547647093605924
+    },
+    {
+      "number": 20000,
+      "average": 0.3148007359390932,
+      "standardabweichung": 0.0010123340321205522
+    },
+    {
+      "number": 30000,
+      "average": 0.34246849410457053,
+      "standardabweichung": 0.0009397532828227783
+    },
+    {
+      "number": 40000,
+      "average": 0.3627143150557115,
+      "standardabweichung": 0.0011999000592665856
+    },
+    {
+      "number": 50000,
+      "average": 0.3775147876915549,
+      "standardabweichung": 0.0005102886585473553
+    },
+    {
+      "number": 60000,
+      "average": 0.3906486457202923,
+      "standardabweichung": 0.0005531064028316817
+    },
+    {
+      "number": 70000,
+      "average": 0.40086823878429306,
+      "standardabweichung": 0.000491633281811915
+    },
+    {
+      "number": 80000,
+      "average": 0.40988461372256796,
+      "standardabweichung": 0.0003309853396205645
+    },
+    {
+      "number": 90000,
+      "average": 0.4174278370504872,
+      "standardabweichung": 0.0007107671745563844
+    },
+    {
+      "number": 100000,
+      "average": 0.42492130285761426,
+      "standardabweichung": 0.0002449076144229978
+    }
+  ]
+}
